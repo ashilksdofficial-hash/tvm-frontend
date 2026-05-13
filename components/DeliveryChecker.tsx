@@ -27,7 +27,6 @@ const DELIVERY_ZONES: Record<string, { area: string; time: string }> = {
   // Jogeshwari & Versova
   "400060": { area: "Jogeshwari West", time: "47-57 min" },
   "400061": { area: "Jogeshwari East", time: "47-57 min" },
-  "400061": { area: "Versova", time: "47-57 min" },
 
   // Malad & Goregaon
   "400064": { area: "Malad West", time: "50-60 min" },
@@ -71,7 +70,6 @@ const DELIVERY_ZONES: Record<string, { area: string; time: string }> = {
 
   // Sion & Chembur
   "400022": { area: "Sion", time: "45-55 min" },
-  "400071": { area: "Chembur", time: "47-57 min" },
   "400074": { area: "Chembur", time: "47-57 min" },
   "400089": { area: "Chembur", time: "47-57 min" },
 
@@ -88,7 +86,6 @@ const DELIVERY_ZONES: Record<string, { area: string; time: string }> = {
   "400020": { area: "Colaba", time: "45-55 min" },
 
   // Fort, CST & Nariman Point
-  "400001": { area: "Fort", time: "42-52 min" },
   "400021": { area: "Nariman Point", time: "42-52 min" },
   "400023": { area: "Mandvi", time: "45-55 min" },
 
