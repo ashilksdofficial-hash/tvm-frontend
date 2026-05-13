@@ -38,7 +38,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#059669"}}>₹999</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹1,248</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#059669",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Velo Freezing Peppermint" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -53,7 +53,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#059669"}}>₹999</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹1,248</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#059669",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
           </div>

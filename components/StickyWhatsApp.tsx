@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20need%20help%20with%20my%20order";
+const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21";
 
 export default function StickyWhatsApp() {
   const [visible, setVisible] = useState(false);
@@ -21,7 +21,7 @@ export default function StickyWhatsApp() {
     <a href={WA} target="_blank" rel="noopener noreferrer" style={{ position: "fixed", bottom: 24, right: 20, zIndex: 1000, display: "flex", alignItems: "center", gap: 10, textDecoration: "none", filter: "drop-shadow(0 4px 12px rgba(37,211,102,0.4))" }}>
       {showText && (
         <div style={{ background: "#fff", color: "#0D0D0D", fontSize: "0.82rem", fontWeight: 600, padding: "8px 14px", borderRadius: 20, boxShadow: "0 2px 12px rgba(0,0,0,0.12)", whiteSpace: "nowrap", opacity: textVisible ? 1 : 0, transition: "opacity 0.8s ease-in-out", fontFamily: "Inter, sans-serif" }}>
-          Need help? 💬
+          Launching Soon! 🔔
         </div>
       )}
       <div style={{ width: 52, height: 52, borderRadius: "50%", background: "#25D366", display: "flex", alignItems: "center", justifyContent: "center", flexShrink: 0 }}>

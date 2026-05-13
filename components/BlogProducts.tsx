@@ -28,7 +28,7 @@ export default function BlogProducts() {
               <div style={{ fontSize: "0.65rem", color: "#6B7280", marginBottom: 6 }}>{p.puffs}</div>
               <div style={{ fontSize: "0.9rem", fontWeight: 800, color: "#E23744", marginBottom: 8 }}>{p.price}</div>
               <a href={`${WA.replace("a%20vape", encodeURIComponent(p.name))}`} target="_blank" rel="noopener noreferrer" style={{ display: "block", background: "#E23744", color: "#fff", textAlign: "center", padding: "7px", borderRadius: 8, fontWeight: 700, fontSize: "0.72rem", textDecoration: "none" }}>
-                Order Now
+                🔔 Notify Me
               </a>
             </div>
           </div>

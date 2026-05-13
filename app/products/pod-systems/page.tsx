@@ -38,7 +38,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹3,999</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹4,998</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G3 Lite" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -53,7 +53,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹5,999</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹7,498</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G3 Lite KOKO" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -68,7 +68,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹5,899</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹7,373</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G3 Pro" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -83,7 +83,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹4,899</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹6,123</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G3 Pro KOKO" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -98,7 +98,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹7,499</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹9,373</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G4" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -113,7 +113,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹7,799</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹9,748</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G4 Mini" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -128,7 +128,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹7,699</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹9,623</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G4 Pro" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -143,7 +143,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹7,899</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹9,873</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G4 Pro KOKO" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -158,7 +158,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹8,999</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹11,248</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G5 Lite" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -173,7 +173,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹8,099</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹10,123</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G5 Lite SE" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -188,7 +188,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹8,499</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹10,623</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn G5 Lite KOKO" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -203,7 +203,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹8,899</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹11,123</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn GK2" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -218,7 +218,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹5,699</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹7,123</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn Xpod" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -233,7 +233,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹4,699</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹5,873</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
               <div key="Caliburn KOKO GK3" style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
@@ -248,7 +248,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#2563EB"}}>₹4,899</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>₹6,123</span>
                   </div>
-                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#2563EB",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list." target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none",border:"1px solid rgba(255,255,255,0.15)"}}>🔔 Notify Me</a>
                 </div>
               </div>
           </div>

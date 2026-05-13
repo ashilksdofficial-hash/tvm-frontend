@@ -79,11 +79,17 @@ const BLOGS = [
   { slug: "nicotine-content-guide-mumbai", tag: "HEALTH", title: "Nicotine Content Guide — How Much is in Each Vape?", excerpt: "A complete breakdown of nicotine levels across all major vape products in India." },
 ];
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list.";
 
 export default function HomePage() {
   return (
     <>
+      {/* Coming Soon Banner */}
+      <div style={{ background: "#E23744", padding: "12px 20px", textAlign: "center" }}>
+        <p style={{ color: "#fff", fontWeight: 700, fontSize: "0.88rem", margin: 0 }}>
+          🚀 TheVapesInMumbai.com is launching soon — <a href="https://wa.me/916282878843?text=Hi%2C%20notify%20me%20when%20TheVapesInMumbai.com%20launches%21" target="_blank" style={{ color: "#fff", textDecoration: "underline" }}>Join the waitlist</a>
+        </p>
+      </div>
       {/* HERO CAROUSEL */}
       <HeroCarousel />
 
@@ -214,7 +220,7 @@ export default function HomePage() {
             </div>
             <a href={WA} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#25D366", color: "#fff", padding: "14px 32px", borderRadius: 12, fontWeight: 700, fontSize: "0.95rem", textDecoration: "none", width: "100%", justifyContent: "center" }}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.122 1.523 5.855L0 24l6.29-1.49A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.374l-.36-.214-3.733.884.937-3.638-.234-.374A9.818 9.818 0 0112 2.182c5.424 0 9.818 4.394 9.818 9.818 0 5.425-4.394 9.818-9.818 9.818z"/></svg>
-              Order Now on WhatsApp
+              🔔 Notify Me at Launch
             </a>
           </div>
         </div>
@@ -225,7 +231,7 @@ export default function HomePage() {
         "@type": "FAQPage",
         "mainEntity": [
           { "@type": "Question", "name": "Where can I buy vapes in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "You can buy vapes in Mumbai through TheVapesInMumbai.in. We offer 45-60 minute delivery across 20+ areas including Bandra West, Andheri West, Juhu, Powai, Worli and more." } },
-          { "@type": "Question", "name": "How fast is vape delivery in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes across Mumbai in 45-60 minutes. Order on WhatsApp and we dispatch immediately." } },
+          { "@type": "Question", "name": "How fast is vape delivery in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes across Mumbai in 45-60 minutes. 🔔 Notify Me at Launch and we dispatch immediately." } },
           { "@type": "Question", "name": "What types of vapes are available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We stock disposable vapes (Elfbar, Lost Mary, Nasty, IGET), reusable pod systems (Caliburn series), e-liquids, nicotine pouches (ZYN, Velo) and rolling tobacco. All available for fast delivery across Mumbai." } },
           { "@type": "Question", "name": "Is Elfbar available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Elfbar is available in Mumbai with 45-60 minute delivery. We stock Elfbar Raya D1, Raya D3, D3 Pro, Ice King, BC10000, MoonNight 40K and more. All 100% original with sealed packaging." } },
           { "@type": "Question", "name": "What is the price of Elfbar in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Elfbar prices in Mumbai start from ₹999 for the Elfbar 600 and go up to ₹3,199 for the Raya SOBO. All prices include delivery with no hidden charges." } },
