@@ -33,7 +33,7 @@ export default function HeroCarousel() {
       </div>
 
       {/* Slides */}
-      <div style={{ position: "relative", width: "100%", aspectRatio: "3/2", overflow: "hidden" }}
+      <div style={{ position: "relative", width: "100%", aspectRatio: "16/9", overflow: "hidden" }}
         onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
         {SLIDES.map((slide, i) => (
           <div key={slide.src} style={{
@@ -42,7 +42,7 @@ export default function HeroCarousel() {
             transition: "opacity 0.9s ease-in-out",
             zIndex: i === current ? 1 : 0,
           }}>
-            <Image src={slide.src} alt={slide.alt} fill style={{ objectFit: "cover", objectPosition: "center top" }} priority={i === 0} sizes="100vw" />
+            <Image src={slide.src} alt={slide.alt} fill style={{ objectFit: "contain", objectPosition: "center", background: "#fff" }} priority={i === 0} sizes="100vw" />
           </div>
         ))}
         {/* Dots */}
