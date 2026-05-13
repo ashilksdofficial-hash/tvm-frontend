@@ -50,6 +50,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Nicotine Pouches in Mumbai", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "ZYN Cool Mint", "description": "ZYN Cool Mint nicotine pouches in Mumbai.", "image": "https://thevapesinmumbai.com/products/zyn-velo.webp", "brand": {"@type": "Brand", "name": "ZYN"}, "offers": {"@type": "Offer", "price": "549", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/nicotine-pouches", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.com"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Velo Freezing Peppermint", "description": "Velo nicotine pouches in Mumbai.", "image": "https://thevapesinmumbai.com/products/velo-freezing-peppermint.webp", "brand": {"@type": "Brand", "name": "Velo"}, "offers": {"@type": "Offer", "price": "499", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/nicotine-pouches", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.com"}}}}]}` }} />
     </>
   );
 }

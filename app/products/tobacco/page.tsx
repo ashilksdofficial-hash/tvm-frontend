@@ -56,6 +56,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Tobacco in Mumbai", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Amber Leaf Rolling Tobacco", "description": "Amber Leaf rolling tobacco in Mumbai.", "image": "https://thevapesinmumbai.com/products/amber-leaf.webp", "brand": {"@type": "Brand", "name": "Amber Leaf"}, "offers": {"@type": "Offer", "price": "1999", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/tobacco", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.com"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Golden Virginia", "description": "Golden Virginia rolling tobacco in Mumbai.", "image": "https://thevapesinmumbai.com/products/golden-virginia.webp", "brand": {"@type": "Brand", "name": "Golden Virginia"}, "offers": {"@type": "Offer", "price": "2399", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/tobacco", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.com"}}}}]}` }} />
     </>
   );
 }

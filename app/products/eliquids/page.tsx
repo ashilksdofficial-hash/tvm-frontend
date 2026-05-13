@@ -51,6 +51,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Eliquids in Mumbai", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Elfliq Nic Salt", "description": "Elfliq nicotine salt e-liquid in Mumbai.", "image": "https://thevapesinmumbai.com/products/elfliq-nic-salt.webp", "brand": {"@type": "Brand", "name": "Elfbar"}, "offers": {"@type": "Offer", "price": "1399", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/eliquids", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.com"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Pod Salt Core", "description": "Pod Salt Core nic salt in Mumbai.", "image": "https://thevapesinmumbai.com/products/pod-salt-core.webp", "brand": {"@type": "Brand", "name": "Pod Salt"}, "offers": {"@type": "Offer", "price": "1099", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/eliquids", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.com"}}}}]}` }} />
     </>
   );
 }

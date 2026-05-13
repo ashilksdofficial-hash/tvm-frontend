@@ -57,6 +57,8 @@ export default function Page() {
           </div>
         </div>
       </section>
+    
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Pod Systems in Mumbai", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Caliburn G3 Pro", "description": "Caliburn G3 Pro pod system in Mumbai. 45-60 min delivery.", "image": "https://thevapesinmumbai.com/products/caliburn-g3-pro.webp", "brand": {"@type": "Brand", "name": "Uwell"}, "offers": {"@type": "Offer", "price": "6499", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/pod-systems", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.com"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Caliburn G4", "description": "Caliburn G4 pod system in Mumbai.", "image": "https://thevapesinmumbai.com/products/caliburn-g4.webp", "brand": {"@type": "Brand", "name": "Uwell"}, "offers": {"@type": "Offer", "price": "6999", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/pod-systems", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.com"}}}}]}` }} />
     </>
   );
 }
