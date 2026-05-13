@@ -24,7 +24,7 @@ const products = [
   { name: "Nasty Bolt WTF 50K", puffs: "50,000 Puffs", price: "₹4,299", mrp: "₹5,374", badge: "50K PUFFS", img: "nasty-bolt.webp" },
   { name: "IGET Astro B18000", puffs: "18,000 Puffs", price: "₹4,299", mrp: "₹5,374", badge: "NEW", img: "iget-astro.webp" },
   { name: "Yuoto Beyonder", puffs: "", price: "₹3,199", mrp: "₹3,998", badge: "BUDGET", img: "yuoto-beyonder.webp" },
-  { name: "Yuoto Thanos", puffs: "5,000 Puffs", price: "₹1,899", mrp: "₹2,374", badge: "NEW", img: "yuoto-thanos.webp" },
+  { name: "Yuoto Thanos", puffs: "5,000 Puffs", price: "₹1,899", mrp: "₹2,374", badge: "NEW", img: "yuoto-thanos.png" },
 ];
 
 export default function Page() {
