@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
-  title: "Nicotine Pouches in Bangalore — ZYN, Velo | TheVapesInBangalore.in",
-  description: "Buy ZYN and Velo nicotine pouches in Bangalore. 30-45 min delivery.",
-  alternates: { canonical: "https://thevapesinbangalore.in/products/nicotine-pouches" },
+  title: "Nicotine Pouches in Mumbai — ZYN, Velo | TheVapesInMumbai.in",
+  description: "Buy ZYN and Velo nicotine pouches in Mumbai. 45-60 min delivery.",
+  alternates: { canonical: "https://thevapesinmumbai.com/products/nicotine-pouches" },
 };
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
 export default function Page() {
   return (
     <>
       <section style={{position:"relative",overflow:"hidden",minHeight:220}}>
-        <Image src="/nicotine-pouches-banner.jpg" alt="Nicotine Pouches in Bangalore" fill style={{objectFit:"contain",objectPosition:"center",background:"#F9F9F9"}} priority sizes="100vw" />
+        <Image src="/nicotine-pouches-banner.jpg" alt="Nicotine Pouches in Mumbai" fill style={{objectFit:"contain",objectPosition:"center",background:"#F9F9F9"}} priority sizes="100vw" />
         <div style={{position:"absolute",inset:0,background:"linear-gradient(to top, rgba(13,13,13,0.7) 0%, rgba(13,13,13,0.15) 50%, rgba(13,13,13,0) 100%)"}} />
         <div style={{position:"relative",zIndex:1,padding:"48px 0 24px"}}>
           <div className="container">
             <a href="/" style={{color:"#fff",fontSize:"0.85rem",textDecoration:"none",background:"rgba(0,0,0,0.35)",padding:"5px 12px",borderRadius:100,backdropFilter:"blur(4px)"}}>← All Categories</a>
-            <h1 style={{position:"absolute",width:1,height:1,overflow:"hidden",opacity:0,pointerEvents:"none",marginTop:12}}>Nicotine Pouches in Bangalore</h1>
-            <p style={{position:"absolute",width:1,height:1,overflow:"hidden",opacity:0,pointerEvents:"none",marginTop:8,maxWidth:560}}>30-45 minute delivery across Bangalore. 100% original products.</p>
+            <h1 style={{position:"absolute",width:1,height:1,overflow:"hidden",opacity:0,pointerEvents:"none",marginTop:12}}>Nicotine Pouches in Mumbai</h1>
+            <p style={{position:"absolute",width:1,height:1,overflow:"hidden",opacity:0,pointerEvents:"none",marginTop:8,maxWidth:560}}>45-60 minute delivery across Mumbai. 100% original products.</p>
           </div>
         </div>
       </section>
@@ -60,9 +60,9 @@ export default function Page() {
         </div>
       </section>
     
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Nicotine Pouches in Bangalore", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "ZYN Cool Mint", "description": "ZYN Cool Mint nicotine pouches in Bangalore.", "offers": {"@type": "Offer", "price": "499", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "TheVapesInBangalore.in"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Velo Freezing Peppermint", "description": "Velo nicotine pouches in Bangalore.", "offers": {"@type": "Offer", "price": "449", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "TheVapesInBangalore.in"}}}}]}` }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Nicotine Pouches in Mumbai", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "ZYN Cool Mint", "description": "ZYN Cool Mint nicotine pouches in Mumbai.", "offers": {"@type": "Offer", "price": "499", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.in"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Velo Freezing Peppermint", "description": "Velo nicotine pouches in Mumbai.", "offers": {"@type": "Offer", "price": "449", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.in"}}}}]}` }} />
     
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Nicotine Pouches in Bangalore", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "ZYN Cool Mint", "description": "ZYN Cool Mint nicotine pouches in Bangalore.", "image": "https://thevapesinbangalore.in/products/zyn-velo.webp", "brand": {"@type": "Brand", "name": "ZYN"}, "offers": {"@type": "Offer", "price": "499", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinbangalore.in/products/nicotine-pouches", "seller": {"@type": "Organization", "name": "TheVapesInBangalore.in"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Velo Freezing Peppermint", "description": "Velo nicotine pouches in Bangalore.", "image": "https://thevapesinbangalore.in/products/velo-freezing-peppermint.webp", "brand": {"@type": "Brand", "name": "Velo"}, "offers": {"@type": "Offer", "price": "449", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinbangalore.in/products/nicotine-pouches", "seller": {"@type": "Organization", "name": "TheVapesInBangalore.in"}}}}]}` }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Nicotine Pouches in Mumbai", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "ZYN Cool Mint", "description": "ZYN Cool Mint nicotine pouches in Mumbai.", "image": "https://thevapesinmumbai.com/products/zyn-velo.webp", "brand": {"@type": "Brand", "name": "ZYN"}, "offers": {"@type": "Offer", "price": "499", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/nicotine-pouches", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.in"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Velo Freezing Peppermint", "description": "Velo nicotine pouches in Mumbai.", "image": "https://thevapesinmumbai.com/products/velo-freezing-peppermint.webp", "brand": {"@type": "Brand", "name": "Velo"}, "offers": {"@type": "Offer", "price": "449", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/nicotine-pouches", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.in"}}}}]}` }} />
     </>
   );
 }

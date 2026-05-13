@@ -3,9 +3,9 @@ import { useState, useEffect, useRef } from "react";
 import Image from "next/image";
 
 const SLIDES = [
-  { src: "/hero-1.jpg", alt: "Vapes in Bangalore — 30-45 min delivery, 100% authentic Elfbar products, fast and discreet" },
-  { src: "/hero-2.jpg", alt: "All leading vape brands in Bangalore — Elfbar, Uwell Caliburn, Yuoto, IGET, Lost Mary — 100% authentic authorized seller" },
-  { src: "/hero-3.jpg", alt: "Most trusted vape store in Bangalore — TheVapesInBangalore.in — verified and safe" },
+  { src: "/hero-1.jpg", alt: "Vapes in Mumbai — 45-60 min delivery, 100% authentic Elfbar products, fast and discreet" },
+  { src: "/hero-2.jpg", alt: "All leading vape brands in Mumbai — Elfbar, Uwell Caliburn, Yuoto, IGET, Lost Mary — 100% authentic authorized seller" },
+  { src: "/hero-3.jpg", alt: "Most trusted vape store in Mumbai — TheVapesInMumbai.in — verified and safe" },
 ];
 
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
@@ -29,7 +29,7 @@ export default function HeroCarousel() {
     <section>
       {/* SEO */}
       <div style={{ position: "absolute", width: 1, height: 1, overflow: "hidden", opacity: 0, pointerEvents: "none" }}>
-        <h1>The Best Vapes in Bangalore — Authorized Seller of Elfbar, Uwell Caliburn, Yuoto. 30-45 min delivery. 100% authentic.</h1>
+        <h1>The Best Vapes in Mumbai — Authorized Seller of Elfbar, Uwell Caliburn, Yuoto. 45-60 min delivery. 100% authentic.</h1>
       </div>
 
       {/* Slides */}

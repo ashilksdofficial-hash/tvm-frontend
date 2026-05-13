@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://thevapesinbangalore.in/sitemap.xml
+Sitemap: https://thevapesinmumbai.com/sitemap.xml

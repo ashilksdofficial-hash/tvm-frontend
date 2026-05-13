@@ -3,9 +3,9 @@ import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 
 export const metadata: Metadata = {
-  title: "Elfbar in Bangalore — Price, Flavours & Fast Delivery | TheVapesInBangalore.in",
-  description: "Complete guide to Elfbar products in Bangalore. Prices, flavours, puff counts and where to get Elfbar delivered in 30-45 minutes across Bangalore.",
-  alternates: { canonical: "https://thevapesinbangalore.in/blog/elfbar-bangalore" },
+  title: "Elfbar in Mumbai — Price, Flavours & Fast Delivery | TheVapesInMumbai.in",
+  description: "Complete guide to Elfbar products in Mumbai. Prices, flavours, puff counts and where to get Elfbar delivered in 45-60 minutes across Mumbai.",
+  alternates: { canonical: "https://thevapesinmumbai.com/blog/elfbar-mumbai" },
 };
 
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20an%20Elfbar";
@@ -21,14 +21,14 @@ const PRODUCTS = [
   { name: "Elfbar Raya SOBO", puffs: "20,000", price: "₹2,849", nicotine: "20mg", best: "Premium design and performance" },
 ];
 
-export default function ElfbarBangalorePage() {
+export default function ElfbarMumbaiPage() {
   return (
     <article>
       <section style={{ background: "var(--black)", padding: "60px 0 40px" }}>
         <div className="container" style={{ maxWidth: 800 }}>
           <p className="section-label">Products</p>
-          <h1 style={{ color: "#fff" }}>Elfbar in Bangalore — Price, Flavours & Delivery</h1>
-          <p style={{ color: "rgba(255,255,255,0.6)", marginTop: 16 }}>Complete guide to all Elfbar products available in Bangalore with prices and flavours.</p>
+          <h1 style={{ color: "#fff" }}>Elfbar in Mumbai — Price, Flavours & Delivery</h1>
+          <p style={{ color: "rgba(255,255,255,0.6)", marginTop: 16 }}>Complete guide to all Elfbar products available in Mumbai with prices and flavours.</p>
           <div style={{ marginTop: 20, fontSize: "0.8rem", color: "rgba(255,255,255,0.4)" }}>Updated May 2026 · 6 min read</div>
         </div>
       </section>
@@ -37,10 +37,10 @@ export default function ElfbarBangalorePage() {
         <div className="container" style={{ maxWidth: 800 }}>
           <BlogProducts />
           <p style={{ fontSize: "1.05rem", color: "var(--gray)", marginBottom: 32 }}>
-            Elfbar is the most popular disposable vape brand in Bangalore. Known for exceptional flavour, long battery life, and reliable performance, Elfbar products are the go-to choice for vapers across Bangalore.
+            Elfbar is the most popular disposable vape brand in Mumbai. Known for exceptional flavour, long battery life, and reliable performance, Elfbar products are the go-to choice for vapers across Mumbai.
           </p>
 
-          <h2 style={{ marginBottom: 24 }}>All Elfbar Products Available in Bangalore</h2>
+          <h2 style={{ marginBottom: 24 }}>All Elfbar Products Available in Mumbai</h2>
           <div style={{ overflowX: "auto", marginBottom: 40 }}>
             <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "0.9rem" }}>
               <thead>
@@ -66,7 +66,7 @@ export default function ElfbarBangalorePage() {
             </table>
           </div>
 
-          <h2 style={{ marginBottom: 16 }}>Popular Elfbar Flavours in Bangalore</h2>
+          <h2 style={{ marginBottom: 16 }}>Popular Elfbar Flavours in Mumbai</h2>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10, marginBottom: 40 }}>
             {["Watermelon Ice", "Blueberry Ice", "Strawberry Kiwi", "Mango Peach", "Passion Fruit", "Lychee Ice", "Mixed Berries", "Grape Ice", "Peach Mango", "Cool Mint", "Pineapple Ice", "Coconut Melon"].map(f => (
               <span key={f} style={{ background: "#FEE2E2", color: "#E23744", padding: "6px 14px", borderRadius: 100, fontSize: "0.82rem", fontWeight: 600 }}>{f}</span>
@@ -89,7 +89,7 @@ export default function ElfbarBangalorePage() {
           </div>
 
           <div style={{ background: "#F0FDF4", border: "1px solid #BBF7D0", borderRadius: 12, padding: 20, marginBottom: 32 }}>
-            <div style={{ fontWeight: 700, marginBottom: 10, color: "#065F46", fontSize: "0.9rem" }}>📦 Browse our products — delivered in 30-45 min:</div>
+            <div style={{ fontWeight: 700, marginBottom: 10, color: "#065F46", fontSize: "0.9rem" }}>📦 Browse our products — delivered in 45-60 min:</div>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
               <Link href="/products/disposables" style={{ background: "#059669", color: "#fff", padding: "7px 14px", borderRadius: 8, fontWeight: 700, fontSize: "0.8rem", textDecoration: "none" }}>View Disposables →</Link>
               <Link href="/products/disposables" style={{ background: "#E23744", color: "#fff", padding: "7px 14px", borderRadius: 8, fontWeight: 700, fontSize: "0.8rem", textDecoration: "none" }}>All Disposables →</Link>
@@ -97,8 +97,8 @@ export default function ElfbarBangalorePage() {
             </div>
           </div>
           <div style={{ background: "var(--black)", borderRadius: 12, padding: 32, textAlign: "center" }}>
-            <h3 style={{ color: "#fff", marginBottom: 8 }}>Order Elfbar in Bangalore</h3>
-            <p style={{ color: "rgba(255,255,255,0.6)", marginBottom: 24, fontSize: "0.9rem" }}>30-45 min delivery. All flavours available. 100% original Elfbar products.</p>
+            <h3 style={{ color: "#fff", marginBottom: 8 }}>Order Elfbar in Mumbai</h3>
+            <p style={{ color: "rgba(255,255,255,0.6)", marginBottom: 24, fontSize: "0.9rem" }}>45-60 min delivery. All flavours available. 100% original Elfbar products.</p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-whatsapp">Order Elfbar Now →</a>
           </div>
         </div>

@@ -5,9 +5,9 @@ import HeroCarousel from "../components/HeroCarousel";
 import DeliverySection from "../components/DeliverySection";
 
 export const metadata: Metadata = {
-  title: "Vapes in Bangalore — 30-45 Min Delivery | TheVapesInBangalore.in",
-  description: "Buy vapes in Bangalore with 30-45 minute delivery. Disposables, pod systems, nic salts, nicotine pouches & tobacco. 100% original products delivered to BTM, HSR, Koramangala, Whitefield & 20+ areas.",
-  alternates: { canonical: "https://thevapesinbangalore.in" },
+  title: "Vapes in Mumbai — 45-60 Min Delivery | TheVapesInMumbai.in",
+  description: "Buy vapes in Mumbai with 45-60 minute delivery. Disposables, pod systems, nic salts, nicotine pouches & tobacco. 100% original products delivered to BTM, HSR, Juhu, Worli & 20+ areas.",
+  alternates: { canonical: "https://thevapesinmumbai.com" },
 };
 
 const CATEGORIES = [
@@ -74,9 +74,9 @@ const CATEGORIES = [
 ];
 
 const BLOGS = [
-  { slug: "best-vape-shops-bangalore", tag: "GUIDE", title: "Best Vape Shops in Bangalore 2026", excerpt: "A complete guide to finding trusted vape shops and delivery services in Bangalore." },
-  { slug: "trusted-vape-delivery-bangalore", tag: "TRUST", title: "Trusted Vape Delivery — Beware of Fake Sites", excerpt: "How to identify genuine vape delivery services and avoid scams in Bangalore." },
-  { slug: "nicotine-content-guide", tag: "HEALTH", title: "Nicotine Content Guide — How Much is in Each Vape?", excerpt: "A complete breakdown of nicotine levels across all major vape products in India." },
+  { slug: "best-vape-shops-mumbai", tag: "GUIDE", title: "Best Vape Shops in Mumbai 2026", excerpt: "A complete guide to finding trusted vape shops and delivery services in Mumbai." },
+  { slug: "trusted-vape-delivery-mumbai", tag: "TRUST", title: "Trusted Vape Delivery — Beware of Fake Sites", excerpt: "How to identify genuine vape delivery services and avoid scams in Mumbai." },
+  { slug: "nicotine-content-guide-mumbai", tag: "HEALTH", title: "Nicotine Content Guide — How Much is in Each Vape?", excerpt: "A complete breakdown of nicotine levels across all major vape products in India." },
 ];
 
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
@@ -164,8 +164,8 @@ export default function HomePage() {
       <section className="section" style={{ background: "var(--off-white)" }}>
         <div className="container">
           <p className="section-label">Delivery Areas</p>
-          <h2 style={{ marginBottom: 8 }}>We Deliver Across All of Bangalore</h2>
-          <p style={{ color: "var(--gray)", marginBottom: 24 }}>30-45 minute delivery to 20+ neighbourhoods including BTM Layout, HSR Layout, Koramangala, Indiranagar, Whitefield, Electronic City, Marathahalli, Hebbal, Jayanagar, JP Nagar, Yelahanka, Rajajinagar, MG Road, Banashankari, Sarjapur, Malleshwaram, Bellandur, Basavanagudi, Hoodi and Vijayanagar.</p>
+          <h2 style={{ marginBottom: 8 }}>We Deliver Across All of Mumbai</h2>
+          <p style={{ color: "var(--gray)", marginBottom: 24 }}>45-60 minute delivery to 20+ neighbourhoods including Bandra West, Andheri West, Juhu, Powai, Worli, Lower Parel, Thane West, Borivali West, Malad West, Goregaon West, Kandivali West, Andheri East, BKC, Navi Mumbai, Kharghar, Dadar, Vile Parle, Colaba, Ghatkopar and Mulund.</p>
           <DeliverySection />
         </div>
       </section>
@@ -174,8 +174,8 @@ export default function HomePage() {
       <section className="section">
         <div className="container">
           <p className="section-label">Blog & Guides</p>
-          <h2 style={{ marginBottom: 8 }}>Everything About Vapes in Bangalore</h2>
-          <p style={{ color: "var(--gray)", marginBottom: 40 }}>Honest guides and trusted information for vapers in Bangalore.</p>
+          <h2 style={{ marginBottom: 8 }}>Everything About Vapes in Mumbai</h2>
+          <p style={{ color: "var(--gray)", marginBottom: 40 }}>Honest guides and trusted information for vapers in Mumbai.</p>
           <div className="grid-3">
             {BLOGS.map(b => (
               <Link key={b.slug} href={`/blog/${b.slug}`} style={{ display: "block", textDecoration: "none" }}>
@@ -208,7 +208,7 @@ export default function HomePage() {
               Message us on WhatsApp — we confirm and dispatch in minutes.
             </p>
             <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: 8, marginBottom: 28 }}>
-              {["⚡ 30-45 Min Delivery", "✅ 100% Original", "📦 Discreet Packaging", "💬 Instant Reply"].map(b => (
+              {["⚡ 45-60 Min Delivery", "✅ 100% Original", "📦 Discreet Packaging", "💬 Instant Reply"].map(b => (
                 <span key={b} style={{ fontSize: "0.72rem", color: "rgba(255,255,255,0.6)", background: "rgba(255,255,255,0.06)", border: "1px solid rgba(255,255,255,0.1)", padding: "4px 10px", borderRadius: 100 }}>{b}</span>
               ))}
             </div>
@@ -224,16 +224,16 @@ export default function HomePage() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "Where can I buy vapes in Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "You can buy vapes in Bangalore through TheVapesInBangalore.in. We offer 30-45 minute delivery across 20+ areas including BTM Layout, HSR Layout, Koramangala, Indiranagar, Whitefield and more." } },
-          { "@type": "Question", "name": "How fast is vape delivery in Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes across Bangalore in 30-45 minutes. Order on WhatsApp and we dispatch immediately." } },
-          { "@type": "Question", "name": "What types of vapes are available in Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "We stock disposable vapes (Elfbar, Lost Mary, Nasty, IGET), reusable pod systems (Caliburn series), e-liquids, nicotine pouches (ZYN, Velo) and rolling tobacco. All available for fast delivery across Bangalore." } },
-          { "@type": "Question", "name": "Is Elfbar available in Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Elfbar is available in Bangalore with 30-45 minute delivery. We stock Elfbar Raya D1, Raya D3, D3 Pro, Ice King, BC10000, MoonNight 40K and more. All 100% original with sealed packaging." } },
-          { "@type": "Question", "name": "What is the price of Elfbar in Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "Elfbar prices in Bangalore start from ₹999 for the Elfbar 600 and go up to ₹3,199 for the Raya SOBO. All prices include delivery with no hidden charges." } },
-          { "@type": "Question", "name": "Do you deliver vapes to Whitefield Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we deliver vapes to Whitefield in 35-45 minutes. Just message us on WhatsApp with your order and address." } },
+          { "@type": "Question", "name": "Where can I buy vapes in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "You can buy vapes in Mumbai through TheVapesInMumbai.in. We offer 45-60 minute delivery across 20+ areas including Bandra West, Andheri West, Juhu, Powai, Worli and more." } },
+          { "@type": "Question", "name": "How fast is vape delivery in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes across Mumbai in 45-60 minutes. Order on WhatsApp and we dispatch immediately." } },
+          { "@type": "Question", "name": "What types of vapes are available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We stock disposable vapes (Elfbar, Lost Mary, Nasty, IGET), reusable pod systems (Caliburn series), e-liquids, nicotine pouches (ZYN, Velo) and rolling tobacco. All available for fast delivery across Mumbai." } },
+          { "@type": "Question", "name": "Is Elfbar available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Elfbar is available in Mumbai with 45-60 minute delivery. We stock Elfbar Raya D1, Raya D3, D3 Pro, Ice King, BC10000, MoonNight 40K and more. All 100% original with sealed packaging." } },
+          { "@type": "Question", "name": "What is the price of Elfbar in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Elfbar prices in Mumbai start from ₹999 for the Elfbar 600 and go up to ₹3,199 for the Raya SOBO. All prices include delivery with no hidden charges." } },
+          { "@type": "Question", "name": "Do you deliver vapes to Worli Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we deliver vapes to Worli in 50-60 minutes. Just message us on WhatsApp with your order and address." } },
           { "@type": "Question", "name": "Are the vapes sold 100% original?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Every product we sell is 100% original, sourced directly from authorised distributors. We are an authorised seller of Elfbar, Uwell Caliburn and Yuoto products." } },
-          { "@type": "Question", "name": "How do I order vapes in Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "Simply message us on WhatsApp at +91 6282878843 with the product name and your delivery address. We confirm within minutes and deliver in 30-45 minutes." } },
-          { "@type": "Question", "name": "Is ZYN available in Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, ZYN nicotine pouches are available in Bangalore with fast delivery. We stock ZYN Cool Mint, ZYN Icy Blackcurrant and more flavours." } },
-          { "@type": "Question", "name": "What areas do you deliver vapes to in Bangalore?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes to BTM Layout, HSR Layout, Koramangala, Indiranagar, Whitefield, Electronic City, Marathahalli, Hebbal, Jayanagar, JP Nagar, Yelahanka, Rajajinagar, MG Road, Banashankari, Sarjapur, Malleshwaram, Bellandur, Basavanagudi, Hoodi and Vijayanagar." } },
+          { "@type": "Question", "name": "How do I order vapes in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Simply message us on WhatsApp at +91 6282878843 with the product name and your delivery address. We confirm within minutes and deliver in 45-60 minutes." } },
+          { "@type": "Question", "name": "Is ZYN available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, ZYN nicotine pouches are available in Mumbai with fast delivery. We stock ZYN Cool Mint, ZYN Icy Blackcurrant and more flavours." } },
+          { "@type": "Question", "name": "What areas do you deliver vapes to in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes to Bandra West, Andheri West, Juhu, Powai, Worli, Lower Parel, Thane West, Borivali West, Malad West, Goregaon West, Kandivali West, Andheri East, BKC, Navi Mumbai, Kharghar, Dadar, Vile Parle, Colaba, Ghatkopar and Mulund." } },
         ]
       })}} />
     </>

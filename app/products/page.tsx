@@ -2,9 +2,9 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "All Vape Products in Bangalore | TheVapesInBangalore.in",
-  description: "Browse all vape products available in Bangalore. Disposables, pod systems, e-liquids, nicotine pouches and tobacco. 30-45 min delivery.",
-  alternates: { canonical: "https://thevapesinbangalore.in/products" },
+  title: "All Vape Products in Mumbai | TheVapesInMumbai.in",
+  description: "Browse all vape products available in Mumbai. Disposables, pod systems, e-liquids, nicotine pouches and tobacco. 45-60 min delivery.",
+  alternates: { canonical: "https://thevapesinmumbai.com/products" },
 };
 
 const CATS = [

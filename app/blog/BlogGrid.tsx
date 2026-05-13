@@ -3,14 +3,14 @@ import { useState } from "react";
 import Link from "next/link";
 
 const POSTS = [
-  { slug: "best-vape-shops-bangalore", tag: "GUIDE", title: "Best Vape Shops in Bangalore 2026", excerpt: "A complete guide to finding trusted vape shops and delivery services in Bangalore.", date: "May 2026" },
-  { slug: "vape-delivery-bangalore-guide", tag: "DELIVERY", title: "Vape Delivery in Bangalore — The Complete Guide", excerpt: "Everything you need to know about ordering vapes for delivery in Bangalore.", date: "May 2026" },
-  { slug: "where-to-buy-vapes-bangalore", tag: "GUIDE", title: "Where to Buy Vapes in Bangalore — 2026 Guide", excerpt: "The definitive guide to buying vapes in Bangalore — online vs offline and trusted sources.", date: "May 2026" },
-  { slug: "elfbar-bangalore", tag: "PRODUCTS", title: "Elfbar in Bangalore — Price, Flavours & Delivery", excerpt: "Complete guide to Elfbar products available in Bangalore. Prices, flavours and puff counts.", date: "May 2026" },
-  { slug: "caliburn-pod-system-bangalore", tag: "PRODUCTS", title: "Caliburn Pod System in Bangalore — Which One to Buy?", excerpt: "A full breakdown of all Caliburn pod systems available in Bangalore.", date: "May 2026" },
-  { slug: "zyn-nicotine-pouches-bangalore", tag: "PRODUCTS", title: "ZYN Nicotine Pouches in Bangalore — Price & Delivery", excerpt: "Everything about ZYN nicotine pouches in Bangalore. Flavours, strengths and prices.", date: "May 2026" },
-  { slug: "trusted-vape-delivery-bangalore", tag: "TRUST", title: "Trusted Vape Delivery — Beware of Fake Sites", excerpt: "How to identify genuine vape delivery services and avoid scams in Bangalore.", date: "May 2026" },
-  { slug: "nicotine-content-guide", tag: "HEALTH", title: "Nicotine Content Guide — How Much is in Each Vape?", excerpt: "A complete breakdown of nicotine levels across all major vape products.", date: "May 2026" },
+  { slug: "best-vape-shops-mumbai", tag: "GUIDE", title: "Best Vape Shops in Mumbai 2026", excerpt: "A complete guide to finding trusted vape shops and delivery services in Mumbai.", date: "May 2026" },
+  { slug: "vape-delivery-mumbai-guide", tag: "DELIVERY", title: "Vape Delivery in Mumbai — The Complete Guide", excerpt: "Everything you need to know about ordering vapes for delivery in Mumbai.", date: "May 2026" },
+  { slug: "where-to-buy-vapes-mumbai", tag: "GUIDE", title: "Where to Buy Vapes in Mumbai — 2026 Guide", excerpt: "The definitive guide to buying vapes in Mumbai — online vs offline and trusted sources.", date: "May 2026" },
+  { slug: "elfbar-mumbai", tag: "PRODUCTS", title: "Elfbar in Mumbai — Price, Flavours & Delivery", excerpt: "Complete guide to Elfbar products available in Mumbai. Prices, flavours and puff counts.", date: "May 2026" },
+  { slug: "caliburn-pod-system-mumbai", tag: "PRODUCTS", title: "Caliburn Pod System in Mumbai — Which One to Buy?", excerpt: "A full breakdown of all Caliburn pod systems available in Mumbai.", date: "May 2026" },
+  { slug: "zyn-nicotine-pouches-mumbai", tag: "PRODUCTS", title: "ZYN Nicotine Pouches in Mumbai — Price & Delivery", excerpt: "Everything about ZYN nicotine pouches in Mumbai. Flavours, strengths and prices.", date: "May 2026" },
+  { slug: "trusted-vape-delivery-mumbai", tag: "TRUST", title: "Trusted Vape Delivery — Beware of Fake Sites", excerpt: "How to identify genuine vape delivery services and avoid scams in Mumbai.", date: "May 2026" },
+  { slug: "nicotine-content-guide-mumbai", tag: "HEALTH", title: "Nicotine Content Guide — How Much is in Each Vape?", excerpt: "A complete breakdown of nicotine levels across all major vape products.", date: "May 2026" },
 ];
 
 const TAG_COLORS: Record<string, string> = {

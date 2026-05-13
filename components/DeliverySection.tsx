@@ -2,69 +2,56 @@
 import { useState } from "react";
 
 const DELIVERY_ZONES: Record<string, { area: string; time: string }> = {
-  "560029": { area: "BTM Layout", time: "25-35 min" },
-  "560034": { area: "Koramangala", time: "20-30 min" },
-  "560095": { area: "Koramangala", time: "20-30 min" },
-  "560068": { area: "HSR Layout", time: "25-35 min" },
-  "560102": { area: "HSR Layout", time: "25-35 min" },
-  "560038": { area: "Indiranagar", time: "25-35 min" },
-  "560008": { area: "Indiranagar", time: "25-35 min" },
-  "560066": { area: "Whitefield", time: "35-45 min" },
-  "560048": { area: "Whitefield", time: "35-45 min" },
-  "560100": { area: "Electronic City", time: "35-45 min" },
-  "560105": { area: "Electronic City", time: "35-45 min" },
-  "560037": { area: "Marathahalli", time: "30-40 min" },
-  "560103": { area: "Marathahalli", time: "30-40 min" },
-  "560024": { area: "Hebbal", time: "30-40 min" },
-  "560032": { area: "Hebbal", time: "30-40 min" },
-  "560041": { area: "Jayanagar", time: "25-35 min" },
-  "560011": { area: "Jayanagar", time: "25-35 min" },
-  "560078": { area: "JP Nagar", time: "25-35 min" },
-  "560076": { area: "JP Nagar", time: "25-35 min" },
-  "560064": { area: "Yelahanka", time: "35-45 min" },
-  "560106": { area: "Yelahanka", time: "35-45 min" },
-  "560010": { area: "Rajajinagar", time: "30-40 min" },
-  "560021": { area: "Rajajinagar", time: "30-40 min" },
-  "560001": { area: "MG Road", time: "20-30 min" },
-  "560025": { area: "MG Road", time: "20-30 min" },
-  "560003": { area: "Shivajinagar", time: "25-35 min" },
-  "560020": { area: "Banashankari", time: "30-40 min" },
-  "560050": { area: "Banashankari", time: "30-40 min" },
-  "560085": { area: "Sarjapur", time: "35-45 min" },
-  "560035": { area: "Malleshwaram", time: "30-40 min" },
-  "560043": { area: "Bellandur", time: "30-40 min" },
-  "560016": { area: "Basavanagudi", time: "25-35 min" },
-  "560004": { area: "Basavanagudi", time: "25-35 min" },
-  "560092": { area: "Hoodi", time: "35-45 min" },
-  "560045": { area: "Vijayanagar", time: "30-40 min" },
-  "560040": { area: "Vijayanagar", time: "30-40 min" },
+  "400050": { area: "Bandra West", time: "40-50 min" },
+  "400051": { area: "Bandra East", time: "40-50 min" },
+  "400053": { area: "Andheri West", time: "45-55 min" },
+  "400058": { area: "Andheri West", time: "45-55 min" },
+  "400059": { area: "Andheri East", time: "45-55 min" },
+  "400049": { area: "Juhu", time: "40-50 min" },
+  "400076": { area: "Powai", time: "50-60 min" },
+  "400018": { area: "Worli", time: "40-50 min" },
+  "400013": { area: "Lower Parel", time: "40-50 min" },
+  "400001": { area: "Marine Lines", time: "40-50 min" },
+  "400005": { area: "Colaba", time: "45-55 min" },
+  "400070": { area: "BKC", time: "45-55 min" },
+  "400064": { area: "Malad West", time: "50-60 min" },
+  "400062": { area: "Goregaon West", time: "50-60 min" },
+  "400067": { area: "Kandivali West", time: "55-60 min" },
+  "400092": { area: "Borivali West", time: "55-60 min" },
+  "400602": { area: "Thane West", time: "55-60 min" },
+  "400703": { area: "Navi Mumbai", time: "55-60 min" },
+  "400706": { area: "Kharghar", time: "55-60 min" },
+  "400028": { area: "Dadar", time: "40-50 min" },
+  "400057": { area: "Vile Parle", time: "45-55 min" },
+  "400086": { area: "Ghatkopar", time: "50-60 min" },
+  "400080": { area: "Mulund", time: "55-60 min" },
 };
 
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
 
-// Bangalore zones with approximate SVG coordinates
+// Mumbai zones with approximate SVG coordinates
 const MAP_ZONES = [
-  { name: "Yelahanka", cx: 155, cy: 60 },
-  { name: "Hebbal", cx: 160, cy: 90 },
-  { name: "Rajajinagar", cx: 110, cy: 115 },
-  { name: "Malleshwaram", cx: 135, cy: 120 },
-  { name: "Shivajinagar", cx: 170, cy: 130 },
-  { name: "MG Road", cx: 185, cy: 145 },
-  { name: "Indiranagar", cx: 215, cy: 140 },
-  { name: "Vijayanagar", cx: 105, cy: 150 },
-  { name: "Whitefield", cx: 255, cy: 155 },
-  { name: "Hoodi", cx: 245, cy: 135 },
-  { name: "Koramangala", cx: 195, cy: 175 },
-  { name: "Marathahalli", cx: 240, cy: 170 },
-  { name: "BTM Layout", cx: 175, cy: 200 },
-  { name: "HSR Layout", cx: 200, cy: 210 },
-  { name: "Jayanagar", cx: 155, cy: 195 },
-  { name: "Basavanagudi", cx: 145, cy: 215 },
-  { name: "Banashankari", cx: 130, cy: 230 },
-  { name: "JP Nagar", cx: 148, cy: 240 },
-  { name: "Bellandur", cx: 230, cy: 210 },
-  { name: "Sarjapur", cx: 250, cy: 235 },
-  { name: "Electronic City", cx: 190, cy: 265 },
+  { name: "Borivali West", cx: 130, cy: 55 },
+  { name: "Kandivali West", cx: 145, cy: 75 },
+  { name: "Malad West", cx: 130, cy: 95 },
+  { name: "Goregaon West", cx: 148, cy: 115 },
+  { name: "Andheri West", cx: 140, cy: 140 },
+  { name: "Andheri East", cx: 195, cy: 135 },
+  { name: "Vile Parle", cx: 148, cy: 160 },
+  { name: "Juhu", cx: 118, cy: 162 },
+  { name: "Powai", cx: 230, cy: 145 },
+  { name: "BKC", cx: 205, cy: 165 },
+  { name: "Bandra West", cx: 128, cy: 185 },
+  { name: "Bandra East", cx: 175, cy: 182 },
+  { name: "Worli", cx: 138, cy: 210 },
+  { name: "Lower Parel", cx: 158, cy: 225 },
+  { name: "Dadar", cx: 175, cy: 210 },
+  { name: "Ghatkopar", cx: 225, cy: 190 },
+  { name: "Mulund", cx: 245, cy: 165 },
+  { name: "Thane West", cx: 260, cy: 140 },
+  { name: "Colaba", cx: 148, cy: 268 },
+  { name: "Marine Lines", cx: 158, cy: 248 },
+  { name: "Navi Mumbai", cx: 255, cy: 225 },
 ];
 
 export default function DeliverySection() {
@@ -126,7 +113,7 @@ export default function DeliverySection() {
       {/* Glowing SVG Map */}
       <div style={{ background: "#0D0D0D", borderRadius: 16, padding: "20px 16px", overflow: "hidden", position: "relative" }}>
         <div style={{ fontSize: "0.75rem", fontWeight: 700, color: "rgba(255,255,255,0.4)", letterSpacing: "0.1em", textTransform: "uppercase", marginBottom: 12, textAlign: "center" }}>
-          Bangalore Delivery Coverage
+          Mumbai Delivery Coverage
         </div>
         <svg viewBox="0 0 360 320" width="100%" style={{ display: "block" }} xmlns="http://www.w3.org/2000/svg">
           <defs>
@@ -202,7 +189,7 @@ export default function DeliverySection() {
 
           {/* Center label */}
           <text x="185" y="310" textAnchor="middle" fontSize="7" fill="rgba(255,255,255,0.2)" fontFamily="Inter, sans-serif">
-            thevapesinbangalore.in · 20+ delivery zones
+            thevapesinmumbai.com · 20+ delivery zones
           </text>
         </svg>
       </div>

@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 export const metadata: Metadata = {
-  title: "Rolling Tobacco in Bangalore | TheVapesInBangalore.in",
-  description: "Buy rolling tobacco in Bangalore. 30-45 min delivery.",
-  alternates: { canonical: "https://thevapesinbangalore.in/products/tobacco" },
+  title: "Rolling Tobacco in Mumbai | TheVapesInMumbai.in",
+  description: "Buy rolling tobacco in Mumbai. 45-60 min delivery.",
+  alternates: { canonical: "https://thevapesinmumbai.com/products/tobacco" },
 };
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
 export default function Page() {
   return (
     <>
       <section style={{position:"relative",overflow:"hidden",minHeight:220}}>
-        <Image src="/tobacco-banner.jpg" alt="Rolling Tobacco in Bangalore" fill style={{objectFit:"contain",objectPosition:"center",background:"#FFFBEB"}} priority sizes="100vw" />
+        <Image src="/tobacco-banner.jpg" alt="Rolling Tobacco in Mumbai" fill style={{objectFit:"contain",objectPosition:"center",background:"#FFFBEB"}} priority sizes="100vw" />
         <div style={{position:"absolute",inset:0,background:"linear-gradient(to top, rgba(13,13,13,0.7) 0%, rgba(13,13,13,0.15) 50%, rgba(13,13,13,0) 100%)"}} />
         <div style={{position:"relative",zIndex:1,padding:"48px 0 24px"}}>
           <div className="container">
             <a href="/" style={{color:"#fff",fontSize:"0.85rem",textDecoration:"none",background:"rgba(0,0,0,0.35)",padding:"5px 12px",borderRadius:100,backdropFilter:"blur(4px)"}}>← All Categories</a>
-            <h1 style={{position:"absolute",width:1,height:1,overflow:"hidden",opacity:0,pointerEvents:"none",marginTop:12}}>Rolling Tobacco in Bangalore</h1>
-            <p style={{position:"absolute",width:1,height:1,overflow:"hidden",opacity:0,pointerEvents:"none",marginTop:8,maxWidth:560}}>30-45 minute delivery across Bangalore. 100% original products.</p>
+            <h1 style={{position:"absolute",width:1,height:1,overflow:"hidden",opacity:0,pointerEvents:"none",marginTop:12}}>Rolling Tobacco in Mumbai</h1>
+            <p style={{position:"absolute",width:1,height:1,overflow:"hidden",opacity:0,pointerEvents:"none",marginTop:8,maxWidth:560}}>45-60 minute delivery across Mumbai. 100% original products.</p>
           </div>
         </div>
       </section>
@@ -90,9 +90,9 @@ export default function Page() {
         </div>
       </section>
     
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Tobacco in Bangalore", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Amber Leaf Rolling Tobacco", "description": "Amber Leaf rolling tobacco in Bangalore.", "offers": {"@type": "Offer", "price": "1800", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "TheVapesInBangalore.in"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Golden Virginia", "description": "Golden Virginia rolling tobacco in Bangalore.", "offers": {"@type": "Offer", "price": "2200", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "TheVapesInBangalore.in"}}}}]}` }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Tobacco in Mumbai", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Amber Leaf Rolling Tobacco", "description": "Amber Leaf rolling tobacco in Mumbai.", "offers": {"@type": "Offer", "price": "1800", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.in"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Golden Virginia", "description": "Golden Virginia rolling tobacco in Mumbai.", "offers": {"@type": "Offer", "price": "2200", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.in"}}}}]}` }} />
     
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Tobacco in Bangalore", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Amber Leaf Rolling Tobacco", "description": "Amber Leaf rolling tobacco in Bangalore.", "image": "https://thevapesinbangalore.in/products/amber-leaf.webp", "brand": {"@type": "Brand", "name": "Amber Leaf"}, "offers": {"@type": "Offer", "price": "1800", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinbangalore.in/products/tobacco", "seller": {"@type": "Organization", "name": "TheVapesInBangalore.in"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Golden Virginia", "description": "Golden Virginia rolling tobacco in Bangalore.", "image": "https://thevapesinbangalore.in/products/golden-virginia.webp", "brand": {"@type": "Brand", "name": "Golden Virginia"}, "offers": {"@type": "Offer", "price": "2200", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinbangalore.in/products/tobacco", "seller": {"@type": "Organization", "name": "TheVapesInBangalore.in"}}}}]}` }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{"@context": "https://schema.org", "@type": "ItemList", "name": "Tobacco in Mumbai", "itemListElement": [{"@type": "ListItem", "position": 1, "item": {"@type": "Product", "name": "Amber Leaf Rolling Tobacco", "description": "Amber Leaf rolling tobacco in Mumbai.", "image": "https://thevapesinmumbai.com/products/amber-leaf.webp", "brand": {"@type": "Brand", "name": "Amber Leaf"}, "offers": {"@type": "Offer", "price": "1800", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/tobacco", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.in"}}}}, {"@type": "ListItem", "position": 2, "item": {"@type": "Product", "name": "Golden Virginia", "description": "Golden Virginia rolling tobacco in Mumbai.", "image": "https://thevapesinmumbai.com/products/golden-virginia.webp", "brand": {"@type": "Brand", "name": "Golden Virginia"}, "offers": {"@type": "Offer", "price": "2200", "priceCurrency": "INR", "availability": "https://schema.org/InStock", "url": "https://thevapesinmumbai.com/products/tobacco", "seller": {"@type": "Organization", "name": "TheVapesInMumbai.in"}}}}]}` }} />
     </>
   );
 }

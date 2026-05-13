@@ -3,9 +3,9 @@ import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 
 export const metadata: Metadata = {
-  title: "Nicotine Content Guide — How Much Nicotine is in Each Vape? | TheVapesInBangalore.in",
+  title: "Nicotine Content Guide — How Much Nicotine is in Each Vape? | TheVapesInMumbai.in",
   description: "Complete guide to nicotine content in vapes. Disposables, pod systems, nic salts and pouches — how much nicotine is in each product and what's right for you.",
-  alternates: { canonical: "https://thevapesinbangalore.in/blog/nicotine-content-guide" },
+  alternates: { canonical: "https://thevapesinmumbai.com/blog/nicotine-content-guide-mumbai" },
 };
 
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
@@ -32,10 +32,10 @@ export default function NicotineGuidePage() {
           <p className="section-label">Health Guide</p>
           <h1 style={{ color: "#fff" }}>Nicotine Content Guide — How Much Nicotine is in Each Vape?</h1>
           <p style={{ color: "rgba(255,255,255,0.6)", marginTop: 16, fontSize: "1.05rem" }}>
-            A complete breakdown of nicotine levels across all major vape products available in Bangalore.
+            A complete breakdown of nicotine levels across all major vape products available in Mumbai.
           </p>
           <div style={{ marginTop: 20, fontSize: "0.8rem", color: "rgba(255,255,255,0.4)" }}>
-            Updated May 2026 · 8 min read · TheVapesInBangalore.in
+            Updated May 2026 · 8 min read · TheVapesInMumbai.in
           </div>
         </div>
       </section>
@@ -72,7 +72,7 @@ export default function NicotineGuidePage() {
 
           <h2 style={{ marginBottom: 16 }}>Nicotine Content by Product</h2>
           <p style={{ color: "var(--gray)", marginBottom: 24 }}>
-            Here's a complete breakdown of nicotine content for all major products available in Bangalore:
+            Here's a complete breakdown of nicotine content for all major products available in Mumbai:
           </p>
 
           <div style={{ overflowX: "auto", marginBottom: 40 }}>
@@ -140,14 +140,14 @@ export default function NicotineGuidePage() {
                 <li>Slower, more sustained release</li>
                 <li>No vapour, completely discreet</li>
                 <li>Can be used anywhere</li>
-                <li>ZYN and Velo are most popular in Bangalore</li>
+                <li>ZYN and Velo are most popular in Mumbai</li>
               </ul>
             </div>
           </div>
 
           {/* CTA */}
           <div style={{ background: "#F0FDF4", border: "1px solid #BBF7D0", borderRadius: 12, padding: 20, marginBottom: 32 }}>
-            <div style={{ fontWeight: 700, marginBottom: 10, color: "#065F46", fontSize: "0.9rem" }}>📦 Browse our products — delivered in 30-45 min:</div>
+            <div style={{ fontWeight: 700, marginBottom: 10, color: "#065F46", fontSize: "0.9rem" }}>📦 Browse our products — delivered in 45-60 min:</div>
             <div style={{ display: "flex", gap: 8, flexWrap: "wrap" }}>
               <Link href="/products/nicotine-pouches" style={{ background: "#059669", color: "#fff", padding: "7px 14px", borderRadius: 8, fontWeight: 700, fontSize: "0.8rem", textDecoration: "none" }}>View Nicotine Pouches →</Link>
               <Link href="/products/disposables" style={{ background: "#E23744", color: "#fff", padding: "7px 14px", borderRadius: 8, fontWeight: 700, fontSize: "0.8rem", textDecoration: "none" }}>All Disposables →</Link>

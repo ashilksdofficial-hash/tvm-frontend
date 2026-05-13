@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "Vape Blog Bangalore — Guides, Reviews & Delivery Info | TheVapesInBangalore.in",
-  description: "Read our complete guides on vapes in Bangalore. Delivery info, product reviews, nicotine guides, and how to find trusted vape shops in Bangalore.",
-  alternates: { canonical: "https://thevapesinbangalore.in/blog" },
+  title: "Vape Blog Mumbai — Guides, Reviews & Delivery Info | TheVapesInMumbai.in",
+  description: "Read our complete guides on vapes in Mumbai. Delivery info, product reviews, nicotine guides, and how to find trusted vape shops in Mumbai.",
+  alternates: { canonical: "https://thevapesinmumbai.com/blog" },
 };
 
 const POSTS = [
-  { slug: "best-vape-shops-bangalore", tag: "GUIDE", title: "Best Vape Shops in Bangalore 2026", excerpt: "A complete guide to finding trusted vape shops and delivery services in Bangalore.", date: "May 2026", color: "#2563EB", emoji: "📖" },
-  { slug: "trusted-vape-delivery-bangalore", tag: "TRUST", title: "Trusted Vape Delivery — Beware of Fake Sites", excerpt: "How to identify genuine vape delivery services and avoid scams in Bangalore.", date: "May 2026", color: "#D97706", emoji: "🔒" },
-  { slug: "vape-delivery-bangalore-guide", tag: "DELIVERY", title: "Vape Delivery in Bangalore — Complete Guide", excerpt: "Everything you need to know about ordering vapes for delivery in Bangalore.", date: "May 2026", color: "#059669", emoji: "🚀" },
-  { slug: "elfbar-bangalore", tag: "PRODUCTS", title: "Elfbar in Bangalore — Price, Flavours & Delivery", excerpt: "Complete guide to Elfbar products available in Bangalore. Prices, flavours and puff counts.", date: "May 2026", color: "#E23744", emoji: "🛒" },
-  { slug: "where-to-buy-vapes-bangalore", tag: "GUIDE", title: "Where to Buy Vapes in Bangalore — 2026", excerpt: "The definitive guide to buying vapes in Bangalore — online vs offline.", date: "May 2026", color: "#2563EB", emoji: "📖" },
-  { slug: "caliburn-pod-system-bangalore", tag: "PRODUCTS", title: "Caliburn Pod System — Which One to Buy?", excerpt: "A full breakdown of all Caliburn pod systems available in Bangalore.", date: "May 2026", color: "#E23744", emoji: "🛒" },
-  { slug: "zyn-nicotine-pouches-bangalore", tag: "PRODUCTS", title: "ZYN Nicotine Pouches — Price & Delivery", excerpt: "Everything about ZYN nicotine pouches in Bangalore. Flavours, strengths and prices.", date: "May 2026", color: "#E23744", emoji: "🛒" },
-  { slug: "nicotine-content-guide", tag: "HEALTH", title: "Nicotine Content Guide — How Much in Each Vape?", excerpt: "A complete breakdown of nicotine levels across all major vape products.", date: "May 2026", color: "#7C3AED", emoji: "💊" },
+  { slug: "best-vape-shops-mumbai", tag: "GUIDE", title: "Best Vape Shops in Mumbai 2026", excerpt: "A complete guide to finding trusted vape shops and delivery services in Mumbai.", date: "May 2026", color: "#2563EB", emoji: "📖" },
+  { slug: "trusted-vape-delivery-mumbai", tag: "TRUST", title: "Trusted Vape Delivery — Beware of Fake Sites", excerpt: "How to identify genuine vape delivery services and avoid scams in Mumbai.", date: "May 2026", color: "#D97706", emoji: "🔒" },
+  { slug: "vape-delivery-mumbai-guide", tag: "DELIVERY", title: "Vape Delivery in Mumbai — Complete Guide", excerpt: "Everything you need to know about ordering vapes for delivery in Mumbai.", date: "May 2026", color: "#059669", emoji: "🚀" },
+  { slug: "elfbar-mumbai", tag: "PRODUCTS", title: "Elfbar in Mumbai — Price, Flavours & Delivery", excerpt: "Complete guide to Elfbar products available in Mumbai. Prices, flavours and puff counts.", date: "May 2026", color: "#E23744", emoji: "🛒" },
+  { slug: "where-to-buy-vapes-mumbai", tag: "GUIDE", title: "Where to Buy Vapes in Mumbai — 2026", excerpt: "The definitive guide to buying vapes in Mumbai — online vs offline.", date: "May 2026", color: "#2563EB", emoji: "📖" },
+  { slug: "caliburn-pod-system-mumbai", tag: "PRODUCTS", title: "Caliburn Pod System — Which One to Buy?", excerpt: "A full breakdown of all Caliburn pod systems available in Mumbai.", date: "May 2026", color: "#E23744", emoji: "🛒" },
+  { slug: "zyn-nicotine-pouches-mumbai", tag: "PRODUCTS", title: "ZYN Nicotine Pouches — Price & Delivery", excerpt: "Everything about ZYN nicotine pouches in Mumbai. Flavours, strengths and prices.", date: "May 2026", color: "#E23744", emoji: "🛒" },
+  { slug: "nicotine-content-guide-mumbai", tag: "HEALTH", title: "Nicotine Content Guide — How Much in Each Vape?", excerpt: "A complete breakdown of nicotine levels across all major vape products.", date: "May 2026", color: "#7C3AED", emoji: "💊" },
 ];
 
 export default function BlogPage() {
@@ -55,9 +55,9 @@ export default function BlogPage() {
       <section style={{ background: "var(--black)", padding: "60px 0 40px" }}>
         <div className="container">
           <p className="section-label">Blog & Guides</p>
-          <h1 style={{ color: "#fff", maxWidth: 600 }}>Everything About Vapes in Bangalore</h1>
+          <h1 style={{ color: "#fff", maxWidth: 600 }}>Everything About Vapes in Mumbai</h1>
           <p style={{ color: "rgba(255,255,255,0.6)", marginTop: 12, maxWidth: 500 }}>
-            Honest guides, product reviews and delivery info for vapers in Bangalore.
+            Honest guides, product reviews and delivery info for vapers in Mumbai.
           </p>
         </div>
       </section>

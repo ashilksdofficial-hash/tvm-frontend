@@ -3,9 +3,9 @@ import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 
 export const metadata: Metadata = {
-  title: "Best Vape Shops in Bangalore 2026 — Trusted Delivery | TheVapesInBangalore.in",
-  description: "Complete guide to the best vape shops in Bangalore 2026. Trusted delivery services, product selection, prices and delivery times compared.",
-  alternates: { canonical: "https://thevapesinbangalore.in/blog/best-vape-shops-bangalore" },
+  title: "Best Vape Shops in Mumbai 2026 — Trusted Delivery | TheVapesInMumbai.in",
+  description: "Complete guide to the best vape shops in Mumbai 2026. Trusted delivery services, product selection, prices and delivery times compared.",
+  alternates: { canonical: "https://thevapesinmumbai.com/blog/best-vape-shops-mumbai" },
 };
 
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
@@ -16,8 +16,8 @@ export default function BestVapeShopsPage() {
       <section style={{ background: "var(--black)", padding: "60px 0 40px" }}>
         <div className="container" style={{ maxWidth: 800 }}>
           <p className="section-label">Guide</p>
-          <h1 style={{ color: "#fff" }}>Best Vape Shops in Bangalore 2026</h1>
-          <p style={{ color: "rgba(255,255,255,0.6)", marginTop: 16 }}>A complete guide to finding trusted vape shops and delivery services in Bangalore.</p>
+          <h1 style={{ color: "#fff" }}>Best Vape Shops in Mumbai 2026</h1>
+          <p style={{ color: "rgba(255,255,255,0.6)", marginTop: 16 }}>A complete guide to finding trusted vape shops and delivery services in Mumbai.</p>
           <div style={{ marginTop: 20, fontSize: "0.8rem", color: "rgba(255,255,255,0.4)" }}>Updated May 2026 · 7 min read</div>
         </div>
       </section>
@@ -26,15 +26,15 @@ export default function BestVapeShopsPage() {
         <div className="container" style={{ maxWidth: 800 }}>
           <BlogProducts />
           <p style={{ fontSize: "1.05rem", color: "var(--gray)", marginBottom: 32 }}>
-            Finding a reliable vape shop in Bangalore has always been a challenge. Physical stores are limited, stock is unpredictable, and online options are full of fake sites. Here's our honest guide to the best options in 2026.
+            Finding a reliable vape shop in Mumbai has always been a challenge. Physical stores are limited, stock is unpredictable, and online options are full of fake sites. Here's our honest guide to the best options in 2026.
           </p>
 
-          <h2 style={{ marginBottom: 24 }}>Top Vape Delivery Services in Bangalore</h2>
+          <h2 style={{ marginBottom: 24 }}>Top Vape Delivery Services in Mumbai</h2>
 
           {[
-            { rank: 1, name: "VapeInBangalore.in", delivery: "30-45 mins", areas: "20+ areas", products: "35+ products", verdict: "Best overall. Fastest delivery, widest product range, excellent customer support. Our top pick for most vapers in Bangalore." },
-            { rank: 2, name: "VapeDeliveryBangalore.com", delivery: "30-45 mins", areas: "20+ areas", products: "35+ products", verdict: "Equally reliable. Same day delivery, great product selection. Particularly strong in north Bangalore areas." },
-            { rank: 3, name: "TheVapesInBangalore.in", delivery: "30-45 mins", areas: "20+ areas", products: "35+ products", verdict: "Fast growing, trusted service. Great prices and responsive support. Strong blog and information resources for new vapers." },
+            { rank: 1, name: "VapeInMumbai.in", delivery: "45-60 mins", areas: "20+ areas", products: "35+ products", verdict: "Best overall. Fastest delivery, widest product range, excellent customer support. Our top pick for most vapers in Mumbai." },
+            { rank: 2, name: "VapeDeliveryMumbai.com", delivery: "45-60 mins", areas: "20+ areas", products: "35+ products", verdict: "Equally reliable. Same day delivery, great product selection. Particularly strong in north Mumbai areas." },
+            { rank: 3, name: "TheVapesInMumbai.in", delivery: "45-60 mins", areas: "20+ areas", products: "35+ products", verdict: "Fast growing, trusted service. Great prices and responsive support. Strong blog and information resources for new vapers." },
           ].map(s => (
             <div key={s.rank} style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: 24, marginBottom: 20 }}>
               <div style={{ display: "flex", gap: 16, alignItems: "flex-start", marginBottom: 16 }}>
@@ -52,12 +52,12 @@ export default function BestVapeShopsPage() {
             </div>
           ))}
 
-          <h2 style={{ marginBottom: 16, marginTop: 40 }}>What to Look for in a Vape Shop in Bangalore</h2>
+          <h2 style={{ marginBottom: 16, marginTop: 40 }}>What to Look for in a Vape Shop in Mumbai</h2>
           <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 40 }}>
             {[
               { title: "Product authenticity", desc: "Always verify products are 100% original. Fake vapes can be dangerous. Look for QR verification codes on packaging." },
-              { title: "Delivery speed", desc: "In Bangalore, 30-45 minutes is the benchmark for good vape delivery. Anything over 2 hours is too slow." },
-              { title: "Customer support", desc: "WhatsApp support is the standard in Bangalore. A responsive support team means you can resolve issues quickly." },
+              { title: "Delivery speed", desc: "In Mumbai, 45-60 minutes is the benchmark for good vape delivery. Anything over 2 hours is too slow." },
+              { title: "Customer support", desc: "WhatsApp support is the standard in Mumbai. A responsive support team means you can resolve issues quickly." },
               { title: "Product range", desc: "A good vape shop stocks disposables, pod systems, nic salts, and nicotine pouches. Limited range usually means limited quality." },
               { title: "Pricing transparency", desc: "Clear pricing with no hidden delivery charges. If the price is suspiciously low, the product is likely fake." },
             ].map(p => (
@@ -78,8 +78,8 @@ export default function BestVapeShopsPage() {
             </div>
           </div>
           <div style={{ background: "var(--black)", borderRadius: 12, padding: 32, textAlign: "center" }}>
-            <h3 style={{ color: "#fff", marginBottom: 8 }}>Order from Bangalore's Trusted Vape Delivery</h3>
-            <p style={{ color: "rgba(255,255,255,0.6)", marginBottom: 24, fontSize: "0.9rem" }}>30-45 min delivery. 100% original. WhatsApp ordering.</p>
+            <h3 style={{ color: "#fff", marginBottom: 8 }}>Order from Mumbai's Trusted Vape Delivery</h3>
+            <p style={{ color: "rgba(255,255,255,0.6)", marginBottom: 24, fontSize: "0.9rem" }}>45-60 min delivery. 100% original. WhatsApp ordering.</p>
             <a href={WA} target="_blank" rel="noopener noreferrer" className="btn-whatsapp">Order Now on WhatsApp →</a>
           </div>
         </div>
