@@ -80,13 +80,23 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <div>
                 <div style={{ fontWeight: 700, color: "#fff", marginBottom: 12, fontSize: "0.9rem" }}>Delivery Areas</div>
                 <ul className="footer-links">
-                  <li><a href="/products">Bandra West</a></li>
-                  <li><a href="/products">Andheri West</a></li>
-                  <li><a href="/products">Juhu</a></li>
-                  <li><a href="/products">Powai</a></li>
-                  <li><a href="/products">Worli</a></li>
-                  <li><a href="/products">+ 20 more areas</a></li>
+                  <li><a href="/locations/bandra-west">Bandra West</a></li>
+                  <li><a href="/locations/andheri-west">Andheri West</a></li>
+                  <li><a href="/locations/juhu">Juhu</a></li>
+                  <li><a href="/locations/powai">Powai</a></li>
+                  <li><a href="/locations/worli">Worli</a></li>
+                  <li><a href="/locations/lower-parel">Lower Parel</a></li>
                 </ul>
+              </div>
+              <div>
+                <div style={{ fontWeight: 700, color: "#fff", marginBottom: 12, fontSize: "0.9rem" }}>🌍 Cities We Serve</div>
+                <ul className="footer-links">
+                  <li><a href="https://thevapesinbangalore.in" target="_blank" rel="noopener noreferrer" style={{ color: "#16a34a", fontWeight: 700 }}>✅ Bangalore — Active</a></li>
+                  <li><a href="https://thevapesinmumbai.com" style={{ color: "#E23744", fontWeight: 700 }}>🚀 Mumbai — Launching Soon</a></li>
+                </ul>
+                <div style={{ marginTop: 12, fontSize: "0.75rem", color: "rgba(255,255,255,0.4)" }}>
+                  Hyderabad · Pune · Delhi — Coming Soon
+                </div>
               </div>
               <div>
                 <div style={{ fontWeight: 700, color: "#fff", marginBottom: 12, fontSize: "0.9rem" }}>Contact</div>
