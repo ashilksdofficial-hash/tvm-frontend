@@ -12,7 +12,6 @@ const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notifie
 const products = [
   { name: "Elfliq Nic Salt 10ml", specs: "10mg / 20mg", price: "₹1,399", mrp: "₹1,749", badge: "POPULAR", img: "elfliq-nic-salt.webp" },
   { name: "Pod Salt Core", specs: "11mg / 20mg", price: "₹1,099", mrp: "₹1,374", badge: "SMOOTH", img: "pod-salt-core.webp" },
-  { name: "Pod Salt Disposable", specs: "20mg", price: "₹1,299", mrp: "₹1,624", badge: "NEW", img: "pod-salt-disposable.webp" },
 ];
 
 export default function Page() {
