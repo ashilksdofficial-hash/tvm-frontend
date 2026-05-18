@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import StickyWhatsApp from "../components/StickyWhatsApp";
+import LiveOrderTicker from "../components/LiveOrderTicker";
 import MiniCart from "../components/MiniCart";
 
 export const metadata: Metadata = {
@@ -42,6 +43,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       </head>
       <body>
         {/* Nav */}
+        <LiveOrderTicker />
         <nav className="nav">
           <div className="nav-inner">
             <a href="/" className="nav-logo">
