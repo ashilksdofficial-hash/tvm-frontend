@@ -117,6 +117,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <li><a href="/products">All Products</a></li>
                   <li><a href="/blog">Blog</a></li>
                   <li><a href="/about">About Us</a></li>
+                  <li><a href="/return-policy">Return Policy</a></li>
                   <li><a href="https://wa.me/916282878843" target="_blank">Order on WhatsApp</a></li>
                 </ul>
               </div>

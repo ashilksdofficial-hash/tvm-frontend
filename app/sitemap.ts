@@ -21,6 +21,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/blog/trusted-vape-delivery-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/blog/nicotine-content-guide-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: `${base}/about`, lastModified: now, changeFrequency: "monthly", priority: 0.5 },
+    { url: `${base}/return-policy`, lastModified: now, changeFrequency: "yearly", priority: 0.4 },
     { url: `${base}/locations/andheri-east`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/locations/andheri-west`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/locations/bandra-east`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
