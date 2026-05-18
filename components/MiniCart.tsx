@@ -84,7 +84,7 @@ export default function MiniCart() {
     return `https://wa.me/916282878843?text=${encodeURIComponent(msg)}`
   }
 
-  const categories = [...new Set(PRODUCTS.map(p => p.category))]
+  const categories = Array.from(new Set(PRODUCTS.map(p => p.category)))
 
   if (!mounted) return null
 
