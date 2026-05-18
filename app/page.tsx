@@ -197,6 +197,241 @@ export default function HomePage() {
       </section>
 
 
+
+      {/* CITIES WE SERVE */}
+      <section className="section" style={{background:"#0D0D0D"}}>
+        <div className="container">
+          <p className="section-label" style={{color:"rgba(255,255,255,0.4)"}}>Our Network</p>
+          <h2 style={{color:"#fff",marginBottom:8}}>Cities We Serve</h2>
+          <p style={{color:"rgba(255,255,255,0.5)",marginBottom:32}}>Fast vape delivery across India. Expanding every month.</p>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",gap:14}}>
+
+            {/* Bangalore */}
+            <a href="https://thevapesinbangalore.in" style={{textDecoration:"none"}}>
+              <div style={{borderRadius:16,overflow:"hidden",border:"2px solid #16a34a",boxShadow:"0 0 20px rgba(22,163,74,0.25)"}}>
+                <div style={{background:"#111",padding:0,height:130,position:"relative",overflow:"hidden"}}>
+                  <svg viewBox="0 0 300 130" width="100%" height="130" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="300" height="130" fill="#0a0a0a"/>
+                    <line x1="0" y1="115" x2="300" y2="115" stroke="#222" strokeWidth="1"/>
+                    <rect x="10" y="70" width="20" height="45" fill="none" stroke="#2a2a2a" strokeWidth="1"/>
+                    <rect x="13" y="73" width="5" height="5" fill="#E23744" opacity="0.7"/>
+                    <rect x="21" y="73" width="5" height="5" fill="#333"/>
+                    <rect x="13" y="82" width="5" height="5" fill="#333"/>
+                    <rect x="21" y="82" width="5" height="5" fill="#E23744" opacity="0.4"/>
+                    <rect x="13" y="91" width="5" height="5" fill="#333"/>
+                    <rect x="14" y="100" width="12" height="15" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <rect x="35" y="45" width="40" height="70" fill="none" stroke="#333" strokeWidth="1"/>
+                    <rect x="38" y="48" width="8" height="8" fill="#333"/>
+                    <rect x="50" y="48" width="8" height="8" fill="#E23744" opacity="0.8"/>
+                    <rect x="62" y="48" width="8" height="8" fill="#333"/>
+                    <rect x="38" y="60" width="8" height="8" fill="#E23744" opacity="0.5"/>
+                    <rect x="50" y="60" width="8" height="8" fill="#333"/>
+                    <rect x="62" y="60" width="8" height="8" fill="#333"/>
+                    <rect x="38" y="72" width="8" height="8" fill="#333"/>
+                    <rect x="50" y="72" width="8" height="8" fill="#333"/>
+                    <rect x="62" y="72" width="8" height="8" fill="#E23744" opacity="0.6"/>
+                    <rect x="38" y="84" width="8" height="8" fill="#333"/>
+                    <rect x="40" y="96" width="30" height="19" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <polygon points="150,5 165,35 135,35" fill="none" stroke="#444" strokeWidth="1"/>
+                    <rect x="143" y="35" width="14" height="80" fill="none" stroke="#444" strokeWidth="1"/>
+                    <rect x="146" y="38" width="4" height="4" fill="#E23744" opacity="0.9"/>
+                    <rect x="153" y="38" width="4" height="4" fill="#333"/>
+                    <rect x="146" y="46" width="4" height="4" fill="#333"/>
+                    <rect x="153" y="46" width="4" height="4" fill="#E23744" opacity="0.5"/>
+                    <rect x="146" y="54" width="4" height="4" fill="#333"/>
+                    <rect x="153" y="54" width="4" height="4" fill="#333"/>
+                    <rect x="146" y="62" width="4" height="4" fill="#E23744" opacity="0.7"/>
+                    <rect x="146" y="70" width="4" height="4" fill="#333"/>
+                    <rect x="147" y="78" width="10" height="37" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <rect x="170" y="55" width="35" height="60" fill="none" stroke="#333" strokeWidth="1"/>
+                    <rect x="173" y="58" width="7" height="7" fill="#333"/>
+                    <rect x="183" y="58" width="7" height="7" fill="#E23744" opacity="0.7"/>
+                    <rect x="193" y="58" width="7" height="7" fill="#333"/>
+                    <rect x="173" y="68" width="7" height="7" fill="#E23744" opacity="0.4"/>
+                    <rect x="183" y="68" width="7" height="7" fill="#333"/>
+                    <rect x="173" y="78" width="7" height="7" fill="#333"/>
+                    <rect x="183" y="78" width="7" height="7" fill="#333"/>
+                    <rect x="174" y="88" width="23" height="27" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <rect x="212" y="65" width="25" height="50" fill="none" stroke="#2a2a2a" strokeWidth="1"/>
+                    <rect x="215" y="68" width="5" height="5" fill="#333"/>
+                    <rect x="223" y="68" width="5" height="5" fill="#E23744" opacity="0.6"/>
+                    <rect x="215" y="77" width="5" height="5" fill="#333"/>
+                    <rect x="223" y="77" width="5" height="5" fill="#333"/>
+                    <rect x="215" y="86" width="5" height="5" fill="#333"/>
+                    <rect x="215" y="95" width="14" height="20" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <rect x="242" y="75" width="18" height="40" fill="none" stroke="#2a2a2a" strokeWidth="1"/>
+                    <rect x="245" y="78" width="4" height="4" fill="#E23744" opacity="0.5"/>
+                    <rect x="252" y="78" width="4" height="4" fill="#333"/>
+                    <rect x="245" y="86" width="4" height="4" fill="#333"/>
+                    <rect x="245" y="95" width="11" height="20" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <rect x="265" y="85" width="15" height="30" fill="none" stroke="#222" strokeWidth="1"/>
+                    <rect x="268" y="88" width="9" height="18" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <text x="150" y="128" textAnchor="middle" fill="#E23744" fontSize="8" fontFamily="monospace" opacity="0.6" letterSpacing="3">BANGALORE</text>
+                  </svg>
+                </div>
+                <div style={{background:"#161616",padding:"12px 14px"}}>
+                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:6}}>
+                    <div style={{color:"#fff",fontWeight:800,fontSize:"0.95rem"}}>Bangalore</div>
+                    <span style={{background:"#E23744",color:"#fff",fontSize:"0.6rem",fontWeight:700,padding:"3px 8px",borderRadius:100}}>✅ ACTIVE</span>
+                  </div>
+                  <div style={{color:"rgba(255,255,255,0.4)",fontSize:"0.72rem",lineHeight:1.5}}>BTM · HSR · Koramangala · Indiranagar · Whitefield · 50+ areas</div>
+                  <div style={{color:"rgba(255,255,255,0.3)",fontSize:"0.68rem",marginTop:4}}>⚡ 30-45 min delivery</div>
+                </div>
+              </div>
+            </a>
+
+            {/* Mumbai */}
+            <a href="https://thevapesinmumbai.com" target="_blank" rel="noopener noreferrer" style={{textDecoration:"none"}}>
+              <div style={{borderRadius:16,overflow:"hidden",border:"2px solid #E23744",boxShadow:"0 0 20px rgba(226,55,68,0.2)"}}>
+                <div style={{background:"#111",padding:0,height:130,position:"relative",overflow:"hidden"}}>
+                  <svg viewBox="0 0 300 130" width="100%" height="130" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="300" height="130" fill="#0a0a0a"/>
+                    <line x1="0" y1="115" x2="300" y2="115" stroke="#222" strokeWidth="1"/>
+                    <rect x="5" y="80" width="15" height="35" fill="none" stroke="#2a2a2a" strokeWidth="1"/>
+                    <rect x="8" y="83" width="4" height="4" fill="#16a34a" opacity="0.6"/>
+                    <rect x="8" y="91" width="4" height="4" fill="#333"/>
+                    <rect x="8" y="99" width="4" height="9" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <rect x="25" y="40" width="45" height="75" fill="none" stroke="#333" strokeWidth="1"/>
+                    <rect x="28" y="43" width="9" height="9" fill="#333"/>
+                    <rect x="40" y="43" width="9" height="9" fill="#16a34a" opacity="0.8"/>
+                    <rect x="52" y="43" width="9" height="9" fill="#333"/>
+                    <rect x="28" y="55" width="9" height="9" fill="#16a34a" opacity="0.5"/>
+                    <rect x="40" y="55" width="9" height="9" fill="#333"/>
+                    <rect x="52" y="55" width="9" height="9" fill="#333"/>
+                    <rect x="28" y="67" width="9" height="9" fill="#333"/>
+                    <rect x="40" y="67" width="9" height="9" fill="#333"/>
+                    <rect x="52" y="67" width="9" height="9" fill="#16a34a" opacity="0.6"/>
+                    <rect x="28" y="79" width="9" height="9" fill="#333"/>
+                    <rect x="30" y="92" width="35" height="23" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <rect x="75" y="20" width="55" height="95" fill="none" stroke="#444" strokeWidth="1"/>
+                    <rect x="78" y="23" width="10" height="10" fill="#333"/>
+                    <rect x="91" y="23" width="10" height="10" fill="#16a34a" opacity="0.9"/>
+                    <rect x="104" y="23" width="10" height="10" fill="#333"/>
+                    <rect x="78" y="36" width="10" height="10" fill="#16a34a" opacity="0.5"/>
+                    <rect x="91" y="36" width="10" height="10" fill="#333"/>
+                    <rect x="104" y="36" width="10" height="10" fill="#333"/>
+                    <rect x="78" y="49" width="10" height="10" fill="#333"/>
+                    <rect x="91" y="49" width="10" height="10" fill="#333"/>
+                    <rect x="104" y="49" width="10" height="10" fill="#16a34a" opacity="0.7"/>
+                    <rect x="78" y="62" width="10" height="10" fill="#333"/>
+                    <rect x="91" y="62" width="10" height="10" fill="#16a34a" opacity="0.4"/>
+                    <rect x="78" y="75" width="10" height="10" fill="#333"/>
+                    <rect x="80" y="90" width="45" height="25" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <rect x="135" y="50" width="30" height="65" fill="none" stroke="#333" strokeWidth="1"/>
+                    <rect x="138" y="53" width="6" height="6" fill="#16a34a" opacity="0.7"/>
+                    <rect x="147" y="53" width="6" height="6" fill="#333"/>
+                    <rect x="156" y="53" width="6" height="6" fill="#333"/>
+                    <rect x="138" y="62" width="6" height="6" fill="#333"/>
+                    <rect x="147" y="62" width="6" height="6" fill="#333"/>
+                    <rect x="156" y="62" width="6" height="6" fill="#16a34a" opacity="0.5"/>
+                    <rect x="138" y="71" width="6" height="6" fill="#333"/>
+                    <rect x="147" y="71" width="6" height="6" fill="#333"/>
+                    <rect x="138" y="80" width="6" height="6" fill="#333"/>
+                    <rect x="139" y="90" width="22" height="25" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <line x1="170" y1="115" x2="210" y2="80" stroke="#222" strokeWidth="8"/>
+                    <line x1="210" y1="80" x2="250" y2="115" stroke="#222" strokeWidth="8"/>
+                    <ellipse cx="190" cy="80" rx="8" ry="8" fill="none" stroke="#333" strokeWidth="1"/>
+                    <ellipse cx="230" cy="80" rx="8" ry="8" fill="none" stroke="#333" strokeWidth="1"/>
+                    <rect x="255" y="60" width="25" height="55" fill="none" stroke="#2a2a2a" strokeWidth="1"/>
+                    <rect x="258" y="63" width="5" height="5" fill="#16a34a" opacity="0.6"/>
+                    <rect x="266" y="63" width="5" height="5" fill="#333"/>
+                    <rect x="258" y="72" width="5" height="5" fill="#333"/>
+                    <rect x="266" y="72" width="5" height="5" fill="#333"/>
+                    <rect x="258" y="81" width="5" height="5" fill="#333"/>
+                    <rect x="258" y="95" width="16" height="20" fill="#1a1a1a" stroke="#333" strokeWidth="0.5"/>
+                    <text x="150" y="128" textAnchor="middle" fill="#16a34a" fontSize="8" fontFamily="monospace" opacity="0.6" letterSpacing="3">MUMBAI</text>
+                  </svg>
+                </div>
+                <div style={{background:"#161616",padding:"12px 14px"}}>
+                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:6}}>
+                    <div style={{color:"#fff",fontWeight:800,fontSize:"0.95rem"}}>Mumbai</div>
+                    <span style={{background:"#E23744",color:"#fff",fontSize:"0.6rem",fontWeight:700,padding:"3px 8px",borderRadius:100}}>✅ ACTIVE</span>
+                  </div>
+                  <div style={{color:"rgba(255,255,255,0.4)",fontSize:"0.72rem",lineHeight:1.5}}>Bandra · Andheri · Juhu · Powai · Worli · 50+ areas</div>
+                  <div style={{color:"rgba(255,255,255,0.3)",fontSize:"0.68rem",marginTop:4}}>⚡ 45-60 min delivery</div>
+                </div>
+              </div>
+            </a>
+
+            {/* Hyderabad */}
+            <div style={{borderRadius:16,overflow:"hidden",border:"1px solid #2a2a2a",opacity:0.6}}>
+              <div style={{background:"#111",height:130,display:"flex",alignItems:"center",justifyContent:"center"}}>
+                <svg viewBox="0 0 300 130" width="100%" height="130" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="300" height="130" fill="#0a0a0a"/>
+                  <line x1="0" y1="115" x2="300" y2="115" stroke="#1a1a1a" strokeWidth="1"/>
+                  <polygon points="100,20 115,50 85,50" fill="none" stroke="#2a2a2a" strokeWidth="1"/>
+                  <rect x="93" y="50" width="14" height="65" fill="none" stroke="#2a2a2a" strokeWidth="1"/>
+                  <rect x="120" y="55" width="60" height="60" fill="none" stroke="#222" strokeWidth="1"/>
+                  <rect x="125" y="58" width="8" height="8" fill="#222"/>
+                  <rect x="137" y="58" width="8" height="8" fill="#222"/>
+                  <rect x="149" y="58" width="8" height="8" fill="#222"/>
+                  <rect x="165" y="58" width="8" height="8" fill="#222"/>
+                  <rect x="125" y="70" width="8" height="8" fill="#222"/>
+                  <rect x="125" y="82" width="45" height="33" fill="#111" stroke="#222" strokeWidth="0.5"/>
+                  <rect x="195" y="65" width="35" height="50" fill="none" stroke="#222" strokeWidth="1"/>
+                  <rect x="198" y="68" width="6" height="6" fill="#222"/>
+                  <rect x="207" y="68" width="6" height="6" fill="#222"/>
+                  <rect x="198" y="78" width="6" height="6" fill="#222"/>
+                  <rect x="198" y="95" width="22" height="20" fill="#111" stroke="#222" strokeWidth="0.5"/>
+                  <text x="150" y="128" textAnchor="middle" fill="#333" fontSize="8" fontFamily="monospace" letterSpacing="3">HYDERABAD</text>
+                </svg>
+              </div>
+              <div style={{background:"#161616",padding:"12px 14px"}}>
+                <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:6}}>
+                  <div style={{color:"rgba(255,255,255,0.5)",fontWeight:800,fontSize:"0.95rem"}}>Hyderabad</div>
+                  <span style={{background:"#1a1a1a",color:"rgba(255,255,255,0.3)",fontSize:"0.6rem",fontWeight:700,padding:"3px 8px",borderRadius:100}}>🔜 SOON</span>
+                </div>
+                <div style={{color:"rgba(255,255,255,0.2)",fontSize:"0.72rem"}}>HITEC City · Gachibowli · Banjara Hills</div>
+              </div>
+            </div>
+
+            {/* Pune */}
+            <div style={{borderRadius:16,overflow:"hidden",border:"1px solid #2a2a2a",opacity:0.6}}>
+              <div style={{background:"#111",height:130,display:"flex",alignItems:"center",justifyContent:"center"}}>
+                <svg viewBox="0 0 300 130" width="100%" height="130" xmlns="http://www.w3.org/2000/svg">
+                  <rect width="300" height="130" fill="#0a0a0a"/>
+                  <line x1="0" y1="115" x2="300" y2="115" stroke="#1a1a1a" strokeWidth="1"/>
+                  <rect x="30" y="60" width="50" height="55" fill="none" stroke="#222" strokeWidth="1"/>
+                  <rect x="33" y="63" width="8" height="8" fill="#222"/>
+                  <rect x="45" y="63" width="8" height="8" fill="#222"/>
+                  <rect x="57" y="63" width="8" height="8" fill="#222"/>
+                  <rect x="33" y="75" width="8" height="8" fill="#222"/>
+                  <rect x="45" y="75" width="8" height="8" fill="#222"/>
+                  <rect x="35" y="90" width="35" height="25" fill="#111" stroke="#222" strokeWidth="0.5"/>
+                  <rect x="90" y="40" width="60" height="75" fill="none" stroke="#2a2a2a" strokeWidth="1"/>
+                  <rect x="93" y="43" width="10" height="10" fill="#222"/>
+                  <rect x="107" y="43" width="10" height="10" fill="#222"/>
+                  <rect x="121" y="43" width="10" height="10" fill="#222"/>
+                  <rect x="93" y="57" width="10" height="10" fill="#222"/>
+                  <rect x="107" y="57" width="10" height="10" fill="#222"/>
+                  <rect x="93" y="71" width="10" height="10" fill="#222"/>
+                  <rect x="95" y="88" width="45" height="27" fill="#111" stroke="#222" strokeWidth="0.5"/>
+                  <rect x="165" y="55" width="40" height="60" fill="none" stroke="#222" strokeWidth="1"/>
+                  <rect x="168" y="58" width="7" height="7" fill="#222"/>
+                  <rect x="179" y="58" width="7" height="7" fill="#222"/>
+                  <rect x="168" y="69" width="7" height="7" fill="#222"/>
+                  <rect x="168" y="93" width="28" height="22" fill="#111" stroke="#222" strokeWidth="0.5"/>
+                  <rect x="215" y="70" width="25" height="45" fill="none" stroke="#1a1a1a" strokeWidth="1"/>
+                  <rect x="215" y="95" width="15" height="20" fill="#111" stroke="#222" strokeWidth="0.5"/>
+                  <text x="150" y="128" textAnchor="middle" fill="#333" fontSize="8" fontFamily="monospace" letterSpacing="3">PUNE</text>
+                </svg>
+              </div>
+              <div style={{background:"#161616",padding:"12px 14px"}}>
+                <div style={{display:"flex",justifyContent:"space-between",alignItems:"center",marginBottom:6}}>
+                  <div style={{color:"rgba(255,255,255,0.5)",fontWeight:800,fontSize:"0.95rem"}}>Pune</div>
+                  <span style={{background:"#1a1a1a",color:"rgba(255,255,255,0.3)",fontSize:"0.6rem",fontWeight:700,padding:"3px 8px",borderRadius:100}}>🔜 SOON</span>
+                </div>
+                <div style={{color:"rgba(255,255,255,0.2)",fontSize:"0.72rem"}}>Koregaon Park · Baner · Hinjewadi</div>
+              </div>
+            </div>
+
+          </div>
+          <p style={{color:"rgba(255,255,255,0.25)",fontSize:"0.72rem",textAlign:"center",marginTop:16}}>
+            New cities launching every month · <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20vape%20delivery%20in%20my%20city" target="_blank" rel="noopener noreferrer" style={{color:"#E23744",textDecoration:"none"}}>Request your city →</a>
+          </p>
+        </div>
+      </section>
+
       {/* REVIEWS */}
       <section className="section" style={{background:"#F9FAFB"}}>
         <div className="container">
