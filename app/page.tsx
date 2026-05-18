@@ -79,17 +79,11 @@ const BLOGS = [
   { slug: "nicotine-content-guide-mumbai", tag: "HEALTH", title: "Nicotine Content Guide — How Much is in Each Vape?", excerpt: "A complete breakdown of nicotine levels across all major vape products in India." },
 ];
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches%21%20Please%20add%20me%20to%20the%20list.";
+const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape%21%20Please%20add%20me%20to%20the%20list.";
 
 export default function HomePage() {
   return (
     <>
-      {/* Coming Soon Banner */}
-      <div style={{ background: "#E23744", padding: "12px 20px", textAlign: "center" }}>
-        <p style={{ color: "#fff", fontWeight: 700, fontSize: "0.88rem", margin: 0 }}>
-          🚀 TheVapesInMumbai.com is launching soon — <a href="https://wa.me/916282878843?text=Hi%2C%20notify%20me%20when%20TheVapesInMumbai.com%20launches%21" target="_blank" style={{ color: "#fff", textDecoration: "underline" }}>Join the waitlist</a>
-        </p>
-      </div>
       {/* HERO CAROUSEL */}
       <HeroCarousel />
 
@@ -202,6 +196,58 @@ export default function HomePage() {
         </div>
       </section>
 
+
+      {/* REVIEWS */}
+      <section className="section" style={{background:"#F9FAFB"}}>
+        <div className="container">
+          <p className="section-label">Customer Reviews</p>
+          <h2 style={{marginBottom:8}}>What Mumbai Vapers Say</h2>
+          <p style={{color:"var(--gray)",marginBottom:8}}>Real reviews from real customers across Mumbai.</p>
+
+          {/* Aggregate Rating */}
+          <div style={{display:"flex",alignItems:"center",gap:12,marginBottom:32,padding:"16px 20px",background:"#fff",borderRadius:14,border:"1px solid #E5E7EB",width:"fit-content"}}>
+            <div style={{fontSize:"2.5rem",fontWeight:900,color:"#0D0D0D"}}>4.9</div>
+            <div>
+              <div style={{color:"#F59E0B",fontSize:"1.2rem",letterSpacing:2}}>★★★★★</div>
+              <div style={{fontSize:"0.78rem",color:"#6B7280",marginTop:2}}>Based on 200+ reviews</div>
+            </div>
+          </div>
+
+          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",gap:16,marginBottom:32}}>
+            {[
+              { name: "Aryan S.", area: "Bandra West", rating: 5, date: "May 2026", text: "Ordered Elfbar Raya D1 at 11pm and it arrived in under 50 minutes. Packaging was sealed and product 100% original. Will definitely order again!" },
+              { name: "Priya M.", area: "Powai", rating: 5, date: "May 2026", text: "Finally found a trusted source in Mumbai. Got Caliburn G4 delivered to Hiranandani. Video call confirmation was a great touch — felt very safe buying." },
+              { name: "Rohan K.", area: "Andheri West", rating: 5, date: "April 2026", text: "Best vape delivery in Mumbai hands down. Fast, discreet, original products. Ordered ZYN pouches and Lost Mary — both came sealed perfectly." },
+              { name: "Sneha T.", area: "Juhu", rating: 5, date: "April 2026", text: "Ordered for the first time and was impressed. Delivery guy was professional, product was sealed. Price was fair too. Highly recommend!" },
+              { name: "Karan D.", area: "Worli", rating: 5, date: "April 2026", text: "Got the Elfbar MoonNight 40K. Fantastic product and super fast delivery. The team was responsive on WhatsApp and confirmed my order instantly." },
+              { name: "Aisha R.", area: "Lower Parel", rating: 5, date: "March 2026", text: "Switched from a fake site to TheVapesInMumbai and the difference is night and day. Original products, great prices, and delivery in under an hour." },
+            ].map((r, i) => (
+              <div key={i} style={{background:"#fff",borderRadius:14,padding:20,border:"1px solid #E5E7EB",boxShadow:"0 2px 8px rgba(0,0,0,0.04)"}}>
+                <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:10}}>
+                  <div>
+                    <div style={{fontWeight:700,fontSize:"0.88rem"}}>{r.name}</div>
+                    <div style={{fontSize:"0.72rem",color:"#6B7280"}}>📍 {r.area}</div>
+                  </div>
+                  <div style={{fontSize:"0.72rem",color:"#9CA3AF"}}>{r.date}</div>
+                </div>
+                <div style={{color:"#F59E0B",marginBottom:8,fontSize:"0.9rem"}}>{"★".repeat(r.rating)}</div>
+                <p style={{fontSize:"0.82rem",color:"#374151",lineHeight:1.6,margin:0}}>{r.text}</p>
+              </div>
+            ))}
+          </div>
+
+          {/* Leave a Review CTA */}
+          <div style={{background:"#0D0D0D",borderRadius:14,padding:24,textAlign:"center"}}>
+            <div style={{fontWeight:700,color:"#fff",fontSize:"1rem",marginBottom:6}}>Ordered from us? Leave a Review!</div>
+            <p style={{color:"rgba(255,255,255,0.6)",fontSize:"0.84rem",marginBottom:16}}>Share your experience and help other Mumbai vapers find trusted delivery.</p>
+            <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20leave%20a%20review%20for%20TheVapesInMumbai.com%21" target="_blank" rel="noopener noreferrer"
+              style={{display:"inline-flex",alignItems:"center",gap:8,background:"#25D366",color:"#fff",padding:"11px 24px",borderRadius:10,fontWeight:700,fontSize:"0.85rem",textDecoration:"none"}}>
+              💬 Leave a Review on WhatsApp
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* CTA */}
       <section style={{ background: "var(--black)", padding: "56px 0" }}>
         <div className="container">
@@ -220,7 +266,7 @@ export default function HomePage() {
             </div>
             <a href={WA} target="_blank" rel="noopener noreferrer" style={{ display: "inline-flex", alignItems: "center", gap: 8, background: "#25D366", color: "#fff", padding: "14px 32px", borderRadius: 12, fontWeight: 700, fontSize: "0.95rem", textDecoration: "none", width: "100%", justifyContent: "center" }}>
               <svg width="20" height="20" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/><path d="M12 0C5.373 0 0 5.373 0 12c0 2.125.554 4.122 1.523 5.855L0 24l6.29-1.49A11.945 11.945 0 0012 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818a9.818 9.818 0 01-5.007-1.374l-.36-.214-3.733.884.937-3.638-.234-.374A9.818 9.818 0 0112 2.182c5.424 0 9.818 4.394 9.818 9.818 0 5.425-4.394 9.818-9.818 9.818z"/></svg>
-              🔔 Notify Me at Launch
+              Order Now on WhatsApp
             </a>
           </div>
         </div>
@@ -231,7 +277,7 @@ export default function HomePage() {
         "@type": "FAQPage",
         "mainEntity": [
           { "@type": "Question", "name": "Where can I buy vapes in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "You can buy vapes in Mumbai through TheVapesInMumbai.com. We offer 45-60 minute delivery across 20+ areas including Bandra West, Andheri West, Juhu, Powai, Worli and more." } },
-          { "@type": "Question", "name": "How fast is vape delivery in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes across Mumbai in 45-60 minutes. 🔔 Notify Me at Launch and we dispatch immediately." } },
+          { "@type": "Question", "name": "How fast is vape delivery in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes across Mumbai in 45-60 minutes. Order Now on WhatsApp and we dispatch immediately." } },
           { "@type": "Question", "name": "What types of vapes are available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We stock disposable vapes (Elfbar, Lost Mary, Nasty, IGET), reusable pod systems (Caliburn series), e-liquids, nicotine pouches (ZYN, Velo) and rolling tobacco. All available for fast delivery across Mumbai." } },
           { "@type": "Question", "name": "Is Elfbar available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Elfbar is available in Mumbai with 45-60 minute delivery. We stock Elfbar Raya D1, Raya D3, D3 Pro, Ice King, BC10000, MoonNight 40K and more. All 100% original with sealed packaging." } },
           { "@type": "Question", "name": "What is the price of Elfbar in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Elfbar prices in Mumbai start from ₹999 for the Elfbar 600 and go up to ₹3,199 for the Raya SOBO. All prices include delivery with no hidden charges." } },

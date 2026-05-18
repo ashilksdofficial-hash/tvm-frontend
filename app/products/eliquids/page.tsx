@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thevapesinmumbai.com/products/eliquids" },
 };
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches";
+const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
 
 const products = [
   { name: "Elfliq Nic Salt 10ml", specs: "10mg / 20mg", price: "₹1,999", mrp: "₹2,499", badge: "POPULAR", img: "elfliq-nic-salt.webp" },
@@ -43,7 +43,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#7C3AED"}}>{p.price}</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>{p.mrp}</span>
                   </div>
-                  <a href={WA} target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#0D0D0D",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>🔔 Notify Me</a>
+                  <a href={WA} target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#E23744",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
                 </div>
               </div>
             ))}

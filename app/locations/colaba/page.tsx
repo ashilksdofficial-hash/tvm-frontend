@@ -7,7 +7,7 @@ export const metadata: Metadata = {
 };
 
 export default function Page() {
-  const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches";
+  const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
   return (
     <div>
       <div style={{background:"#0D0D0D",padding:"48px 20px 32px"}}>
@@ -21,7 +21,7 @@ export default function Page() {
         <div style={{display:"flex",gap:10,marginTop:20,flexWrap:"wrap"}}>
           <a href={WA} target="_blank" rel="noopener noreferrer"
             style={{background:"#25D366",color:"#fff",padding:"10px 20px",borderRadius:10,fontWeight:700,fontSize:"0.85rem",textDecoration:"none",fontFamily:"Inter,sans-serif"}}>
-            Notify Me at Launch
+            Order Now
           </a>
           <span style={{background:"rgba(255,255,255,0.1)",color:"#fff",padding:"10px 16px",borderRadius:10,fontSize:"0.82rem",fontFamily:"Inter,sans-serif"}}>
             45-55 min delivery
@@ -54,13 +54,13 @@ export default function Page() {
         </div>
 
         <div style={{background:"#0D0D0D",borderRadius:14,padding:28,textAlign:"center"}}>
-          <h3 style={{color:"#fff",marginBottom:8,fontFamily:"Inter,sans-serif"}}>Launching Soon in Colaba</h3>
+          <h3 style={{color:"#fff",marginBottom:8,fontFamily:"Inter,sans-serif"}}>Now Delivering to Colaba</h3>
           <p style={{color:"rgba(255,255,255,0.6)",fontSize:"0.88rem",marginBottom:20,fontFamily:"Inter,sans-serif"}}>
             Join the waitlist and be the first to order when we launch in Colaba, Mumbai.
           </p>
           <a href={WA} target="_blank" rel="noopener noreferrer"
             style={{display:"inline-flex",alignItems:"center",gap:8,background:"#25D366",color:"#fff",padding:"12px 28px",borderRadius:10,fontWeight:700,fontSize:"0.88rem",textDecoration:"none",fontFamily:"Inter,sans-serif"}}>
-            Join Waitlist for Colaba
+            Order Vapes in Colaba
           </a>
         </div>
 

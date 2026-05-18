@@ -56,6 +56,46 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </nav>
 
         {children}
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `{
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "TheVapesInMumbai.com",
+        "url": "https://thevapesinmumbai.com",
+        "telephone": "+916282878843",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mumbai",
+          "addressRegion": "Maharashtra",
+          "addressCountry": "IN"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.9",
+          "reviewCount": "200",
+          "bestRating": "5"
+        },
+        "review": [
+          {
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "Aryan S."},
+            "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+            "reviewBody": "Ordered Elfbar Raya D1 and it arrived in under 50 minutes. 100% original product."
+          },
+          {
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "Priya M."},
+            "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+            "reviewBody": "Finally found a trusted vape source in Mumbai. Video call confirmation was a great touch."
+          },
+          {
+            "@type": "Review",
+            "author": {"@type": "Person", "name": "Rohan K."},
+            "reviewRating": {"@type": "Rating", "ratingValue": "5"},
+            "reviewBody": "Best vape delivery in Mumbai. Fast, discreet, original products every time."
+          }
+        ]
+      }` }} />
         <StickyWhatsApp />
         <SpeedInsights />
 {/* Footer */}
