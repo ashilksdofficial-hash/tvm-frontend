@@ -3,6 +3,7 @@ import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import StickyWhatsApp from "../components/StickyWhatsApp";
 import LiveOrderTicker from "../components/LiveOrderTicker";
+import MiniCart from "../components/MiniCart";
 
 export const metadata: Metadata = {
   title: "The Vapes in Mumbai — Fast Vape Delivery Across Mumbai",
