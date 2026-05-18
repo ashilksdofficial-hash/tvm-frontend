@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches";
 
 const products = [
-  { name: "Elfliq Nic Salt 10ml", specs: "10mg / 20mg", price: "₹1,399", mrp: "₹1,749", badge: "POPULAR", img: "elfliq-nic-salt.webp" },
-  { name: "Pod Salt Core", specs: "11mg / 20mg", price: "₹1,099", mrp: "₹1,374", badge: "SMOOTH", img: "pod-salt-core.webp" },
+  { name: "Elfliq Nic Salt 10ml", specs: "10mg / 20mg", price: "₹1,999", mrp: "₹2,499", badge: "POPULAR", img: "elfliq-nic-salt.webp" },
+  { name: "Pod Salt Core", specs: "11mg / 20mg", price: "₹1,999", mrp: "₹2,499", badge: "SMOOTH", img: "pod-salt-core.webp" },
 ];
 
 export default function Page() {

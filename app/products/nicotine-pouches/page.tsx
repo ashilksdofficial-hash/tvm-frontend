@@ -10,8 +10,8 @@ export const metadata: Metadata = {
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches";
 
 const products = [
-  { name: "ZYN Cool Mint", specs: "3mg / 6mg", price: "₹549", mrp: "₹686", badge: "POPULAR", img: "zyn-velo.webp" },
-  { name: "Velo Freezing Peppermint", specs: "4mg / 10mg", price: "₹499", mrp: "₹624", badge: "STRONG", img: "velo-freezing-peppermint.webp" },
+  { name: "ZYN Cool Mint", specs: "3mg / 6mg", price: "₹1,199", mrp: "₹1,499", badge: "POPULAR", img: "zyn-velo.webp" },
+  { name: "Velo Freezing Peppermint", specs: "4mg / 10mg", price: "₹1,199", mrp: "₹1,499", badge: "STRONG", img: "velo-freezing-peppermint.webp" },
 ];
 
 export default function Page() {

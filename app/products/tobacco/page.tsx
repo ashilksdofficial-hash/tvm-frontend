@@ -10,10 +10,10 @@ export const metadata: Metadata = {
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20be%20notified%20when%20TheVapesInMumbai.com%20launches";
 
 const products = [
-  { name: "Amber Leaf Rolling Tobacco", specs: "50g pouch", price: "₹1,999", mrp: "₹2,499", badge: "POPULAR", img: "amber-leaf.webp" },
-  { name: "Drum Bright Blue", specs: "50g pouch", price: "₹1,899", mrp: "₹2,374", badge: "SMOOTH", img: "drum-blue.webp" },
-  { name: "Golden Virginia", specs: "50g pouch", price: "₹2,399", mrp: "₹2,999", badge: "PREMIUM", img: "golden-virginia.webp" },
-  { name: "Natural American Spirit", specs: "50g pouch", price: "₹2,499", mrp: "₹3,124", badge: "ORGANIC", img: "american-spirit.webp" },
+  { name: "Amber Leaf Rolling Tobacco", specs: "50g pouch", price: "₹1,199", mrp: "₹1,499", badge: "POPULAR", img: "amber-leaf.webp" },
+  { name: "Drum Bright Blue", specs: "50g pouch", price: "₹1,199", mrp: "₹1,499", badge: "SMOOTH", img: "drum-blue.webp" },
+  { name: "Golden Virginia", specs: "50g pouch", price: "₹1,199", mrp: "₹1,499", badge: "PREMIUM", img: "golden-virginia.webp" },
+  { name: "Natural American Spirit", specs: "50g pouch", price: "₹1,199", mrp: "₹1,499", badge: "ORGANIC", img: "american-spirit.webp" },
 ];
 
 export default function Page() {
