@@ -1,5 +1,3 @@
-import WAStatus from "../components/WAStatus";
-import FlashSale from "../components/FlashSale";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
@@ -90,14 +88,6 @@ export default function HomePage() {
       <HeroCarousel />
 
 
-
-      {/* FLASH + STATUS */}
-      <section style={{padding:"16px 0 0"}}>
-        <div className="container">
-          <FlashSale />
-          <WAStatus />
-        </div>
-      </section>
 
       {/* CATEGORIES */}
       <section className="section" id="categories">
