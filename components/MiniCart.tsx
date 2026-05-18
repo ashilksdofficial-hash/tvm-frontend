@@ -246,7 +246,7 @@ export default function MiniCart() {
                 </div>
 
                 <a href={buildWAMessage()} target="_blank" rel="noopener noreferrer"
-                  onClick={() => setOpen(false)}
+                  onClick={() => { setOpen(false); setCart([]); }}
                   style={{
                     display:"flex",alignItems:"center",justifyContent:"center",gap:10,
                     background:"#25D366",color:"#fff",
