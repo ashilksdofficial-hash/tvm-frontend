@@ -110,7 +110,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               </div>
             </div>
             <div className="footer-bottom">
-              <span>© 2026 TheVapesInMumbai.in — All rights reserved</span>
+              <span>© 2026 TheVapesInMumbai.com — All rights reserved</span>
               <span>Mumbai, Maharashtra, India</span>
             </div>
           </div>
