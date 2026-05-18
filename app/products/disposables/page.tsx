@@ -22,8 +22,8 @@ const products = [
   { name: "Elfbar MoonNight 40K", puffs: "40,000 Puffs", price: "₹3,499", mrp: "₹4,374", badge: "LONGEST", img: "elfbar-moonnight.webp" },
   { name: "Lost Mary MT35000 Turbo", puffs: "35,000 Puffs", price: "₹3,199", mrp: "₹3,998", badge: "HIGH PUFF", img: "lost-mary-mt35000.webp" },
   { name: "Lost Mary MO10000", puffs: "10,000 Puffs", price: "₹2,699", mrp: "₹3,374", badge: "COMPACT", img: "lost-mary-mo10000.webp" },
-  { name: "Nasty Bolt WTF 50K", puffs: "50,000 Puffs", price: "₹4,299", mrp: "₹5,374", badge: "50K PUFFS", img: "nasty-bolt.webp" },
-  { name: "IGET Astro B18000", puffs: "18,000 Puffs", price: "₹4,299", mrp: "₹5,374", badge: "NEW", img: "iget-astro.webp" },
+  { name: "Nasty Bolt WTF 50K", puffs: "50,000 Puffs", price: "₹4,299", mrp: "₹3,499", badge: "50K PUFFS", img: "nasty-bolt.webp" },
+  { name: "IGET Astro B18000", puffs: "18,000 Puffs", price: "₹2,799", mrp: "₹3,499", badge: "NEW", img: "iget-astro.webp" },
   { name: "Yuoto Beyonder", puffs: "", price: "₹1,999", mrp: "₹2,499", badge: "BUDGET", img: "yuoto-beyonder.webp" },
   { name: "Yuoto Thanos", puffs: "5,000 Puffs", price: "₹1,899", mrp: "₹2,374", badge: "NEW", img: "yuoto-thanos.png" },
 ];
