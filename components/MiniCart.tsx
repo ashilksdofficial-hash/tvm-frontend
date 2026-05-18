@@ -44,7 +44,19 @@ export default function MiniCart() {
   const [activeCategory, setActiveCategory] = useState("Disposables")
   const [mounted, setMounted] = useState(false)
 
-  useEffect(() => { setMounted(true) }, [])
+  useEffect(() => {
+    setMounted(true)
+    const handler = (e: Event) => {
+      const detail = (e as CustomEvent).detail
+      setCart(prev => {
+        const existing = prev.find(i => i.id === detail.id)
+        if (existing) return prev.map(i => i.id === detail.id ? { ...i, qty: i.qty + 1 } : i)
+        return [...prev, { id: detail.id, name: detail.name, price: detail.price, qty: 1 }]
+      })
+    }
+    window.addEventListener('add-to-cart', handler)
+    return () => window.removeEventListener('add-to-cart', handler)
+  }, [])
 
   const addToCart = (product: typeof PRODUCTS[0]) => {
     setCart(prev => {

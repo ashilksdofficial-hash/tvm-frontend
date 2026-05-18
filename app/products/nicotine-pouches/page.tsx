@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import AddToCartButton from "../../../components/AddToCartButton";
 
 export const metadata: Metadata = {
   title: "Nicotine Pouches in Mumbai — ZYN, Velo | TheVapesInMumbai.com",
@@ -43,7 +44,7 @@ export default function Page() {
                     <span style={{fontSize:"1rem",fontWeight:800,color:"#059669"}}>{p.price}</span>
                     <span style={{fontSize:"0.7rem",color:"#9CA3AF",textDecoration:"line-through"}}>{p.mrp}</span>
                   </div>
-                  <a href={WA} target="_blank" rel="noopener noreferrer" style={{display:"block",background:"#E23744",color:"#fff",textAlign:"center",padding:"9px",borderRadius:8,fontWeight:700,fontSize:"0.78rem",textDecoration:"none"}}>Order Now</a>
+                  <AddToCartButton productId="zyn" productName="ZYN Cool Mint" price={1199} />
                 </div>
               </div>
             ))}
