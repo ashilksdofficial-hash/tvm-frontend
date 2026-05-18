@@ -5,7 +5,7 @@ import HeroCarousel from "../components/HeroCarousel";
 import DeliverySection from "../components/DeliverySection";
 
 export const metadata: Metadata = {
-  title: "Vapes in Mumbai — 45-60 Min Delivery | TheVapesInMumbai.in",
+  title: "Vapes in Mumbai — 45-60 Min Delivery | TheVapesInMumbai.com",
   description: "Buy vapes in Mumbai with 45-60 minute delivery. Disposables, pod systems, nic salts, nicotine pouches & tobacco. 100% original products delivered to BTM, HSR, Juhu, Worli & 20+ areas.",
   alternates: { canonical: "https://thevapesinmumbai.com" },
 };
@@ -230,7 +230,7 @@ export default function HomePage() {
         "@context": "https://schema.org",
         "@type": "FAQPage",
         "mainEntity": [
-          { "@type": "Question", "name": "Where can I buy vapes in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "You can buy vapes in Mumbai through TheVapesInMumbai.in. We offer 45-60 minute delivery across 20+ areas including Bandra West, Andheri West, Juhu, Powai, Worli and more." } },
+          { "@type": "Question", "name": "Where can I buy vapes in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "You can buy vapes in Mumbai through TheVapesInMumbai.com. We offer 45-60 minute delivery across 20+ areas including Bandra West, Andheri West, Juhu, Powai, Worli and more." } },
           { "@type": "Question", "name": "How fast is vape delivery in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We deliver vapes across Mumbai in 45-60 minutes. 🔔 Notify Me at Launch and we dispatch immediately." } },
           { "@type": "Question", "name": "What types of vapes are available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "We stock disposable vapes (Elfbar, Lost Mary, Nasty, IGET), reusable pod systems (Caliburn series), e-liquids, nicotine pouches (ZYN, Velo) and rolling tobacco. All available for fast delivery across Mumbai." } },
           { "@type": "Question", "name": "Is Elfbar available in Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, Elfbar is available in Mumbai with 45-60 minute delivery. We stock Elfbar Raya D1, Raya D3, D3 Pro, Ice King, BC10000, MoonNight 40K and more. All 100% original with sealed packaging." } },

@@ -3,8 +3,8 @@ import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 
 export const metadata: Metadata = {
-  title: "How to Find Trusted Vape Delivery in Mumbai | TheVapesInMumbai.in",
-  description: "Looking for reliable vape delivery in Mumbai? Here's exactly what makes a vape delivery service trustworthy — and why thousands of customers choose TheVapesInMumbai.in.",
+  title: "How to Find Trusted Vape Delivery in Mumbai | TheVapesInMumbai.com",
+  description: "Looking for reliable vape delivery in Mumbai? Here's exactly what makes a vape delivery service trustworthy — and why thousands of customers choose TheVapesInMumbai.com.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/trusted-vape-delivery-mumbai" },
 };
 
@@ -22,7 +22,7 @@ const rankings = [
     badge: null, badgeColor: null,
   },
   {
-    rank: 3, name: "TheVapesInMumbai.in",
+    rank: 3, name: "TheVapesInMumbai.com",
     note: "Fast 45-60 min delivery, 100% original products, instant WhatsApp support and discreet packaging. That's us.",
     badge: "OUR SITE", badgeColor: "#059669",
   },

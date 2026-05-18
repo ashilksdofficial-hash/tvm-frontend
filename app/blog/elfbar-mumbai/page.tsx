@@ -3,7 +3,7 @@ import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 
 export const metadata: Metadata = {
-  title: "Elfbar in Mumbai — Price, Flavours & Fast Delivery | TheVapesInMumbai.in",
+  title: "Elfbar in Mumbai — Price, Flavours & Fast Delivery | TheVapesInMumbai.com",
   description: "Complete guide to Elfbar products in Mumbai. Prices, flavours, puff counts and where to get Elfbar delivered in 45-60 minutes across Mumbai.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/elfbar-mumbai" },
 };

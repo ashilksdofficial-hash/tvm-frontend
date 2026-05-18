@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 export const metadata: Metadata = {
-  title: "Vape Delivery in Mumbai — Complete Guide 2026 | TheVapesInMumbai.in",
+  title: "Vape Delivery in Mumbai — Complete Guide 2026 | TheVapesInMumbai.com",
   description: "Everything about vape delivery in Mumbai. Areas covered, delivery times, how to order, and what to expect. The complete 2026 guide.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/vape-delivery-mumbai-guide" },
 };

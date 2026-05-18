@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Us — TheVapesInMumbai.in | Trusted Vape Delivery in Mumbai",
-  description: "Learn about TheVapesInMumbai.in — Mumbai's trusted vape delivery service. 45-60 min delivery, 100% original products, serving 20+ areas across Mumbai.",
+  title: "About Us — TheVapesInMumbai.com | Trusted Vape Delivery in Mumbai",
+  description: "Learn about TheVapesInMumbai.com — Mumbai's trusted vape delivery service. 45-60 min delivery, 100% original products, serving 20+ areas across Mumbai.",
   alternates: { canonical: "https://thevapesinmumbai.com/about" },
 };
 
@@ -36,7 +36,7 @@ export default function AboutPage() {
             <span style={{ color: "var(--red)" }}>Vape Delivery</span> Service
           </h1>
           <p style={{ color: "rgba(255,255,255,0.65)", fontSize: "1.1rem", lineHeight: 1.7, maxWidth: 600 }}>
-            We started TheVapesInMumbai.in with one mission — make it easy for Mumbaians to get genuine vapes delivered fast, safely, and discreetly. No hassle, no fake products, no waiting.
+            We started TheVapesInMumbai.com with one mission — make it easy for Mumbaians to get genuine vapes delivered fast, safely, and discreetly. No hassle, no fake products, no waiting.
           </p>
         </div>
       </section>
@@ -65,7 +65,7 @@ export default function AboutPage() {
               Finding a reliable vape in Mumbai used to be a nightmare. Physical shops had limited stock, inconsistent quality, and required you to travel across the city. Online options were full of fake websites, overpriced products, and unreliable delivery.
             </p>
             <p>
-              We saw the problem and built the solution. TheVapesInMumbai.in was created to be the most trusted, fastest, and most reliable vape delivery service in Mumbai. We stock only 100% original products from official distributors, and we deliver them to your door in 45-60 minutes.
+              We saw the problem and built the solution. TheVapesInMumbai.com was created to be the most trusted, fastest, and most reliable vape delivery service in Mumbai. We stock only 100% original products from official distributors, and we deliver them to your door in 45-60 minutes.
             </p>
             <p>
               We serve over 1,000 happy customers across 20+ neighbourhoods in Mumbai. From Bandra West to Worli, from Juhu to Kandivali West — we know Mumbai, and we deliver everywhere.
@@ -159,7 +159,7 @@ export default function AboutPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
-        "name": "TheVapesInMumbai.in",
+        "name": "TheVapesInMumbai.com",
         "description": "Trusted vape delivery service in Mumbai. 45-60 minute delivery across 20+ areas.",
         "url": "https://thevapesinmumbai.com",
         "telephone": "+916282878843",

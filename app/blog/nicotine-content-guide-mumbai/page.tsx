@@ -3,7 +3,7 @@ import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 
 export const metadata: Metadata = {
-  title: "Nicotine Content Guide — How Much Nicotine is in Each Vape? | TheVapesInMumbai.in",
+  title: "Nicotine Content Guide — How Much Nicotine is in Each Vape? | TheVapesInMumbai.com",
   description: "Complete guide to nicotine content in vapes. Disposables, pod systems, nic salts and pouches — how much nicotine is in each product and what's right for you.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/nicotine-content-guide-mumbai" },
 };
@@ -35,7 +35,7 @@ export default function NicotineGuidePage() {
             A complete breakdown of nicotine levels across all major vape products available in Mumbai.
           </p>
           <div style={{ marginTop: 20, fontSize: "0.8rem", color: "rgba(255,255,255,0.4)" }}>
-            Updated May 2026 · 8 min read · TheVapesInMumbai.in
+            Updated May 2026 · 8 min read · TheVapesInMumbai.com
           </div>
         </div>
       </section>

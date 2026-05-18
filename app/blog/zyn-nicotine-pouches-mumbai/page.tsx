@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 export const metadata: Metadata = {
-  title: "ZYN Nicotine Pouches in Mumbai — Price, Flavours & Delivery | TheVapesInMumbai.in",
+  title: "ZYN Nicotine Pouches in Mumbai — Price, Flavours & Delivery | TheVapesInMumbai.com",
   description: "Complete guide to ZYN nicotine pouches in Mumbai. Flavours, strengths, prices and where to get ZYN delivered fast across Mumbai.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/zyn-nicotine-pouches-mumbai" },
 };

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 export const metadata: Metadata = {
-  title: "Caliburn Pod System in Mumbai — Which One to Buy? | TheVapesInMumbai.in",
+  title: "Caliburn Pod System in Mumbai — Which One to Buy? | TheVapesInMumbai.com",
   description: "Complete guide to all Caliburn pod systems available in Mumbai. Prices, specs and which Caliburn is right for you. Fast delivery across Mumbai.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/caliburn-pod-system-mumbai" },
 };

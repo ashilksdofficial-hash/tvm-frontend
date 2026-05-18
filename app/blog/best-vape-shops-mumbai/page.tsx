@@ -3,7 +3,7 @@ import Link from "next/link";
 import BlogProducts from "../../../components/BlogProducts";
 
 export const metadata: Metadata = {
-  title: "Best Vape Shops in Mumbai 2026 — Trusted Delivery | TheVapesInMumbai.in",
+  title: "Best Vape Shops in Mumbai 2026 — Trusted Delivery | TheVapesInMumbai.com",
   description: "Complete guide to the best vape shops in Mumbai 2026. Trusted delivery services, product selection, prices and delivery times compared.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/best-vape-shops-mumbai" },
 };
@@ -34,7 +34,7 @@ export default function BestVapeShopsPage() {
           {[
             { rank: 1, name: "VapeInMumbai.in", delivery: "45-60 mins", areas: "20+ areas", products: "35+ products", verdict: "Best overall. Fastest delivery, widest product range, excellent customer support. Our top pick for most vapers in Mumbai." },
             { rank: 2, name: "VapeDeliveryMumbai.com", delivery: "45-60 mins", areas: "20+ areas", products: "35+ products", verdict: "Equally reliable. Same day delivery, great product selection. Particularly strong in north Mumbai areas." },
-            { rank: 3, name: "TheVapesInMumbai.in", delivery: "45-60 mins", areas: "20+ areas", products: "35+ products", verdict: "Fast growing, trusted service. Great prices and responsive support. Strong blog and information resources for new vapers." },
+            { rank: 3, name: "TheVapesInMumbai.com", delivery: "45-60 mins", areas: "20+ areas", products: "35+ products", verdict: "Fast growing, trusted service. Great prices and responsive support. Strong blog and information resources for new vapers." },
           ].map(s => (
             <div key={s.rank} style={{ background: "#fff", border: "1px solid var(--border)", borderRadius: 12, padding: 24, marginBottom: 20 }}>
               <div style={{ display: "flex", gap: 16, alignItems: "flex-start", marginBottom: 16 }}>
