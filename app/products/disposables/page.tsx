@@ -11,15 +11,17 @@ export const metadata: Metadata = {
 const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
 
 const products = [
-  { name: "Elfbar 600", puffs: "600 Puffs", price: "₹1,099", mrp: "₹1,374", badge: "BUDGET", img: "elfbar-600.webp" },
   { name: "Elfbar Raya D1", puffs: "13,000 Puffs", price: "₹2,399", mrp: "₹2,998", badge: "BEST SELLER", img: "raya-d1.webp" },
+  { name: "Elfbar MoonNight 40K", puffs: "40,000 Puffs", price: "₹3,499", mrp: "₹4,374", badge: "LONGEST", img: "elfbar-moonnight.webp" },
+  { name: "Elfbar 600", puffs: "600 Puffs", price: "₹1,099", mrp: "₹1,374", badge: "BUDGET", img: "elfbar-600.webp" },
+  
   { name: "Elfbar Raya D3", puffs: "25,000 Puffs", price: "₹2,999", mrp: "₹3,748", badge: "TOP RATED", img: "raya-d3.webp" },
   { name: "Elfbar D3 Pro", puffs: "30,000 Puffs", price: "₹3,499", mrp: "₹4,374", badge: "PRO", img: "d3-pro.webp" },
   { name: "Elfbar Ice King", puffs: "30,000 Puffs", price: "₹3,199", mrp: "₹3,998", badge: "VALUE", img: "ice-king.webp" },
   { name: "Elfbar BC 10000", puffs: "10,000 Puffs", price: "₹1,999", mrp: "₹2,499", badge: "COMPACT", img: "bc10000.webp" },
   { name: "Elfbar Raya SOBO", puffs: "40,000 Puffs", price: "₹3,599", mrp: "₹4,499", badge: "PREMIUM", img: "raya-sobo.webp" },
   { name: "Elfbar Trio", puffs: "30,000 Puffs", price: "₹3,299", mrp: "₹4,124", badge: "NEW", img: "elfbar-trio.webp" },
-  { name: "Elfbar MoonNight 40K", puffs: "40,000 Puffs", price: "₹3,499", mrp: "₹4,374", badge: "LONGEST", img: "elfbar-moonnight.webp" },
+  
   { name: "Lost Mary MT35000 Turbo", puffs: "35,000 Puffs", price: "₹3,199", mrp: "₹3,998", badge: "HIGH PUFF", img: "lost-mary-mt35000.webp" },
   { name: "Lost Mary MO10000", puffs: "10,000 Puffs", price: "₹2,699", mrp: "₹3,374", badge: "COMPACT", img: "lost-mary-mo10000.webp" },
   { name: "Nasty Bolt WTF 50K", puffs: "50,000 Puffs", price: "₹4,299", mrp: "₹3,499", badge: "50K PUFFS", img: "nasty-bolt.webp" },
