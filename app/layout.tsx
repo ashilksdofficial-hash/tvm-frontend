@@ -135,7 +135,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 <div style={{ fontWeight: 700, color: "#fff", marginBottom: 12, fontSize: "0.9rem" }}>🌍 Cities We Serve</div>
                 <ul className="footer-links">
                   <li><a href="https://thevapesinbangalore.in" target="_blank" rel="noopener noreferrer" style={{ color: "#16a34a", fontWeight: 700 }}>✅ Bangalore — Active</a></li>
-                  <li><a href="https://thevapesinmumbai.com" style={{ color: "#E23744", fontWeight: 700 }}>🚀 Mumbai — Launching Soon</a></li>
+                  <li><a href="https://thevapesinmumbai.com" style={{ color: "#16a34a", fontWeight: 700 }}>✅ Mumbai — Active</a></li>
                 </ul>
                 <div style={{ marginTop: 12, fontSize: "0.75rem", color: "rgba(255,255,255,0.4)" }}>
                   Hyderabad · Pune · Delhi — Coming Soon
