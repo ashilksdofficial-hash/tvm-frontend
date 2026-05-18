@@ -34,7 +34,7 @@ export default function Page() {
       <section className="section">
         <div className="container">
           <div style={{background:"#EFF6FF",border:"1px solid #BFDBFE",borderRadius:12,padding:16,marginBottom:32,fontSize:"0.85rem",color:"#1E40AF"}}>
-            Note: Pod systems need e-liquid separately. Join waitlist and we will recommend the perfect combo for you.
+            Note: Pod systems need e-liquid separately. Message us on WhatsApp and we will recommend the perfect combo for you.
           </div>
           <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",gap:16}}>
             {products.map((p) => (

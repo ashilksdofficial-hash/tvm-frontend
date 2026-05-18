@@ -40,7 +40,7 @@ export default function Page() {
       <section className="section">
         <div className="container">
           <div style={{background:"#FEF2F2",border:"1px solid #FECACA",borderRadius:12,padding:16,marginBottom:32,fontSize:"0.85rem",color:"#991B1B"}}>
-            🚀 Launching soon in Mumbai — Join the waitlist to be notified first!
+            ✅ Now delivering across Mumbai — Order on WhatsApp for 45-60 min delivery!
           </div>
           <div style={{display:"grid",gridTemplateColumns:"repeat(2,1fr)",gap:16}}>
             {products.map((p) => (
