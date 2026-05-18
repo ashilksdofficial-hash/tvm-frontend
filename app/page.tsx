@@ -205,7 +205,7 @@ export default function HomePage() {
           <p style={{color:"var(--gray)",marginBottom:8}}>Real reviews from real customers across Mumbai.</p>
 
           {/* Aggregate Rating */}
-          <div style={{display:"flex",alignItems:"center",gap:12,marginBottom:32,padding:"16px 20px",background:"#fff",borderRadius:14,border:"1px solid #E5E7EB",width:"fit-content"}}>
+          <div style={{display:"flex",alignItems:"center",gap:12,marginBottom:24,padding:"16px 20px",background:"#fff",borderRadius:14,border:"1px solid #E5E7EB",width:"fit-content"}}>
             <div style={{fontSize:"2.5rem",fontWeight:900,color:"#0D0D0D"}}>4.9</div>
             <div>
               <div style={{color:"#F59E0B",fontSize:"1.2rem",letterSpacing:2}}>★★★★★</div>
@@ -213,34 +213,71 @@ export default function HomePage() {
             </div>
           </div>
 
-          <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fit,minmax(280px,1fr))",gap:16,marginBottom:32}}>
-            {[
-              { name: "Aryan S.", area: "Bandra West", rating: 5, date: "May 2026", text: "Ordered Elfbar Raya D1 at 11pm and it arrived in under 50 minutes. Packaging was sealed and product 100% original. Will definitely order again!" },
-              { name: "Priya M.", area: "Powai", rating: 5, date: "May 2026", text: "Finally found a trusted source in Mumbai. Got Caliburn G4 delivered to Hiranandani. Video call confirmation was a great touch — felt very safe buying." },
-              { name: "Rohan K.", area: "Andheri West", rating: 5, date: "April 2026", text: "Best vape delivery in Mumbai hands down. Fast, discreet, original products. Ordered ZYN pouches and Lost Mary — both came sealed perfectly." },
-              { name: "Sneha T.", area: "Juhu", rating: 5, date: "April 2026", text: "Ordered for the first time and was impressed. Delivery guy was professional, product was sealed. Price was fair too. Highly recommend!" },
-              { name: "Karan D.", area: "Worli", rating: 5, date: "April 2026", text: "Got the Elfbar MoonNight 40K. Fantastic product and super fast delivery. The team was responsive on WhatsApp and confirmed my order instantly." },
-              { name: "Aisha R.", area: "Lower Parel", rating: 5, date: "March 2026", text: "Switched from a fake site to TheVapesInMumbai and the difference is night and day. Original products, great prices, and delivery in under an hour." },
-            ].map((r, i) => (
-              <div key={i} style={{background:"#fff",borderRadius:14,padding:20,border:"1px solid #E5E7EB",boxShadow:"0 2px 8px rgba(0,0,0,0.04)"}}>
-                <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:10}}>
-                  <div>
-                    <div style={{fontWeight:700,fontSize:"0.88rem"}}>{r.name}</div>
-                    <div style={{fontSize:"0.72rem",color:"#6B7280"}}>📍 {r.area}</div>
+          {/* Scrolling Reviews Ticker */}
+          <div style={{overflow:"hidden",marginBottom:32,position:"relative"}}>
+            <style>{`
+              @keyframes scroll-reviews {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(-50%); }
+              }
+              .reviews-track {
+                display: flex;
+                gap: 16px;
+                animation: scroll-reviews 30s linear infinite;
+                width: max-content;
+              }
+              .reviews-track:hover {
+                animation-play-state: paused;
+              }
+            `}</style>
+            <div className="reviews-track">
+              {[
+                { name: "Aryan S.", area: "Bandra West", rating: 5, date: "May 2026", text: "Ordered Elfbar Raya D1 at 11pm and it arrived in under 50 minutes. Packaging was sealed and 100% original!" },
+                { name: "Priya M.", area: "Powai", rating: 5, date: "May 2026", text: "Finally a trusted source in Mumbai. Got Caliburn G4 delivered to Hiranandani. Video call confirmation was brilliant." },
+                { name: "Rohan K.", area: "Andheri West", rating: 5, date: "April 2026", text: "Best vape delivery in Mumbai hands down. Fast, discreet, original products every time." },
+                { name: "Sneha T.", area: "Juhu", rating: 5, date: "April 2026", text: "First time ordering and was blown away. Delivery was professional, product sealed perfectly." },
+                { name: "Karan D.", area: "Worli", rating: 5, date: "April 2026", text: "Got Elfbar MoonNight 40K. Fantastic product and super fast delivery. Team was instant on WhatsApp." },
+                { name: "Aisha R.", area: "Lower Parel", rating: 5, date: "March 2026", text: "Switched from a fake site — night and day difference. Original products, great prices, under an hour delivery." },
+                { name: "Mihir P.", area: "BKC", rating: 5, date: "March 2026", text: "Ordered during office hours, delivered to BKC in 45 mins. Sealed packaging, legit product. Highly recommend." },
+                { name: "Nadia F.", area: "Thane West", rating: 5, date: "March 2026", text: "Delivers all the way to Thane! Lost Mary MT35000 arrived sealed and original. Will be a regular customer." },
+                { name: "Aryan S.", area: "Bandra West", rating: 5, date: "May 2026", text: "Ordered Elfbar Raya D1 at 11pm and it arrived in under 50 minutes. Packaging was sealed and 100% original!" },
+                { name: "Priya M.", area: "Powai", rating: 5, date: "May 2026", text: "Finally a trusted source in Mumbai. Got Caliburn G4 delivered to Hiranandani. Video call confirmation was brilliant." },
+                { name: "Rohan K.", area: "Andheri West", rating: 5, date: "April 2026", text: "Best vape delivery in Mumbai hands down. Fast, discreet, original products every time." },
+                { name: "Sneha T.", area: "Juhu", rating: 5, date: "April 2026", text: "First time ordering and was blown away. Delivery was professional, product sealed perfectly." },
+                { name: "Karan D.", area: "Worli", rating: 5, date: "April 2026", text: "Got Elfbar MoonNight 40K. Fantastic product and super fast delivery. Team was instant on WhatsApp." },
+                { name: "Aisha R.", area: "Lower Parel", rating: 5, date: "March 2026", text: "Switched from a fake site — night and day difference. Original products, great prices, under an hour delivery." },
+                { name: "Mihir P.", area: "BKC", rating: 5, date: "March 2026", text: "Ordered during office hours, delivered to BKC in 45 mins. Sealed packaging, legit product. Highly recommend." },
+                { name: "Nadia F.", area: "Thane West", rating: 5, date: "March 2026", text: "Delivers all the way to Thane! Lost Mary MT35000 arrived sealed and original. Will be a regular customer." },
+              ].map((r, i) => (
+                <div key={i} style={{
+                  background:"#fff",
+                  borderRadius:14,
+                  padding:"16px 18px",
+                  border:"1.5px solid #E23744",
+                  boxShadow:"0 0 12px rgba(226,55,68,0.15)",
+                  minWidth:260,
+                  maxWidth:260,
+                  flexShrink:0,
+                }}>
+                  <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:8}}>
+                    <div>
+                      <div style={{fontWeight:700,fontSize:"0.85rem"}}>{r.name}</div>
+                      <div style={{fontSize:"0.7rem",color:"#6B7280"}}>📍 {r.area}</div>
+                    </div>
+                    <div style={{fontSize:"0.68rem",color:"#9CA3AF"}}>{r.date}</div>
                   </div>
-                  <div style={{fontSize:"0.72rem",color:"#9CA3AF"}}>{r.date}</div>
+                  <div style={{color:"#F59E0B",marginBottom:6,fontSize:"0.85rem"}}>{"★".repeat(r.rating)}</div>
+                  <p style={{fontSize:"0.78rem",color:"#374151",lineHeight:1.5,margin:0}}>{r.text}</p>
                 </div>
-                <div style={{color:"#F59E0B",marginBottom:8,fontSize:"0.9rem"}}>{"★".repeat(r.rating)}</div>
-                <p style={{fontSize:"0.82rem",color:"#374151",lineHeight:1.6,margin:0}}>{r.text}</p>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
           {/* Leave a Review CTA */}
           <div style={{background:"#0D0D0D",borderRadius:14,padding:24,textAlign:"center"}}>
             <div style={{fontWeight:700,color:"#fff",fontSize:"1rem",marginBottom:6}}>Ordered from us? Leave a Review!</div>
             <p style={{color:"rgba(255,255,255,0.6)",fontSize:"0.84rem",marginBottom:16}}>Share your experience and help other Mumbai vapers find trusted delivery.</p>
-            <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20leave%20a%20review%20for%20TheVapesInMumbai.com%21" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20leave%20a%20review%20for%20TheVapesInMumbai.com%21%20Here%20is%20my%20experience%3A%20" target="_blank" rel="noopener noreferrer"
               style={{display:"inline-flex",alignItems:"center",gap:8,background:"#25D366",color:"#fff",padding:"11px 24px",borderRadius:10,fontWeight:700,fontSize:"0.85rem",textDecoration:"none"}}>
               💬 Leave a Review on WhatsApp
             </a>
