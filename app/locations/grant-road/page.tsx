@@ -9,6 +9,7 @@ export const metadata: Metadata = {
 export default function Page() {
   const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
   return (
+    <>
     <div>
       <div style={{background:"#0D0D0D",padding:"48px 20px 32px"}}>
         <a href="/" style={{color:"rgba(255,255,255,0.5)",fontSize:"0.82rem",textDecoration:"none"}}>Back to Home</a>
@@ -67,6 +68,7 @@ export default function Page() {
       </div>
     </div>
 
-      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Do you deliver vapes to Grant Road Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! We deliver vapes to Grant Road Mumbai in 45-60 minutes. 100% original products." } }, { "@type": "Question", "name": "How to order vapes in Grant Road Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "WhatsApp us your order and Grant Road address. We confirm and dispatch immediately." } }] }) }} />
+          <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Do you deliver vapes to Grant Road Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! We deliver vapes to Grant Road Mumbai in 45-60 minutes. 100% original products." } }, { "@type": "Question", "name": "How to order vapes in Grant Road Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "WhatsApp us your order and Grant Road address. We confirm and dispatch immediately." } }] }) }} />
+    </>
   );
 }
