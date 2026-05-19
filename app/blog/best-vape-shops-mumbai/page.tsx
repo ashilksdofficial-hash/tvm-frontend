@@ -12,6 +12,7 @@ const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20
 
 export default function BestVapeShopsPage() {
   return (
+    <>
     <article>
       <section style={{ background: "var(--black)", padding: "60px 0 40px" }}>
         <div className="container" style={{ maxWidth: 800 }}>
@@ -85,5 +86,7 @@ export default function BestVapeShopsPage() {
         </div>
       </section>
     </article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", "headline": "Best Vape Shops in Mumbai 2026 — Trusted Delivery | TheVapesInMumbai.com", "author": {"@type": "Organization", "name": "TheVapesInMumbai.com"}, "publisher": {"@type": "Organization", "name": "TheVapesInMumbai.com", "url": "https://thevapesinmumbai.com"}, "url": "https://thevapesinmumbai.com/blog/best-vape-shops-mumbai" }) }} />
+    </>
   );
 }

@@ -66,5 +66,7 @@ export default function Page() {
 
       </div>
     </div>
+
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{ "@type": "Question", "name": "Do you deliver vapes to BKC Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "Yes! We deliver vapes to BKC Mumbai in 45-60 minutes. 100% original products." } }, { "@type": "Question", "name": "How to order vapes in BKC Mumbai?", "acceptedAnswer": { "@type": "Answer", "text": "WhatsApp us your order and BKC address. We confirm and dispatch immediately." } }] }) }} />
   );
 }

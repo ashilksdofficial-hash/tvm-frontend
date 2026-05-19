@@ -195,6 +195,49 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* DELIVERY AREAS */}
+      <section className="section">
+        <div className="container">
+          <p className="section-label">Delivery Areas</p>
+          <h2 style={{marginBottom:8}}>We Deliver Across Mumbai</h2>
+          <p style={{color:"var(--gray)",marginBottom:24}}>Click your area to see delivery details and order now.</p>
+          <div style={{display:"flex",flexWrap:"wrap",gap:10}}>
+            {[
+              {name:"Bandra West", slug:"bandra-west"},
+              {name:"Andheri West", slug:"andheri-west"},
+              {name:"Juhu", slug:"juhu"},
+              {name:"Powai", slug:"powai"},
+              {name:"Worli", slug:"worli"},
+              {name:"Lower Parel", slug:"lower-parel"},
+              {name:"BKC", slug:"bkc"},
+              {name:"Thane West", slug:"thane-west"},
+              {name:"Malad West", slug:"malad-west"},
+              {name:"Borivali West", slug:"borivali-west"},
+              {name:"Kandivali West", slug:"kandivali-west"},
+              {name:"Goregaon West", slug:"goregaon-west"},
+              {name:"Vashi", slug:"vashi"},
+              {name:"Kharghar", slug:"kharghar"},
+              {name:"Colaba", slug:"colaba"},
+              {name:"Malabar Hill", slug:"malabar-hill"},
+              {name:"Dadar West", slug:"dadar-west"},
+              {name:"Chembur", slug:"chembur"},
+              {name:"Ghatkopar West", slug:"ghatkopar-west"},
+              {name:"Marine Lines", slug:"marine-lines"},
+            ].map(area => (
+              <a key={area.slug} href={`/locations/${area.slug}`}
+                style={{background:"#F9FAFB",border:"1px solid #E5E7EB",padding:"8px 16px",borderRadius:100,fontSize:"0.78rem",fontWeight:600,textDecoration:"none",color:"#374151"}}>
+                📍 {area.name}
+              </a>
+            ))}
+            <a href="/locations/taj-mahal-palace-mumbai"
+              style={{background:"#FEF2F2",border:"1px solid #FECACA",padding:"8px 16px",borderRadius:100,fontSize:"0.78rem",fontWeight:600,textDecoration:"none",color:"#991B1B"}}>
+              🏨 Hotel Delivery
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* CITIES WE SERVE */}
       <section className="section" style={{background:"#0D0D0D"}}>
         <div className="container">

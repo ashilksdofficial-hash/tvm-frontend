@@ -21,6 +21,7 @@ const PRODUCTS = [
 ];
 export default function CaliburnPage() {
   return (
+    <>
     <article>
       <section style={{background:"var(--black)",padding:"60px 0 40px"}}>
         <div className="container" style={{maxWidth:800}}>
@@ -78,5 +79,7 @@ export default function CaliburnPage() {
         </div>
       </section>
     </article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", "headline": "Caliburn Pod System in Mumbai — Which One to Buy? | TheVapesInMumbai.com", "author": {"@type": "Organization", "name": "TheVapesInMumbai.com"}, "publisher": {"@type": "Organization", "name": "TheVapesInMumbai.com", "url": "https://thevapesinmumbai.com"}, "url": "https://thevapesinmumbai.com/blog/caliburn-pod-system-mumbai" }) }} />
+    </>
   );
 }

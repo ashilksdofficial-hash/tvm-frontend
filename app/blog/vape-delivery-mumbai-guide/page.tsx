@@ -10,6 +10,7 @@ const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20
 const AREAS = ["Bandra West","Andheri West","Juhu","Powai","Worli","Lower Parel","Thane West","Borivali West","Malad West","Goregaon West","Kandivali West","Andheri East","Bannerghatta Road","Kharghar Road","Vile Parle","Kadugodi","KR Puram","Dadar","Navi Mumbai","Mysore Road"];
 export default function VapeDeliveryGuidePage() {
   return (
+    <>
     <article>
       <section style={{background:"var(--black)",padding:"60px 0 40px"}}>
         <div className="container" style={{maxWidth:800}}>
@@ -60,5 +61,7 @@ export default function VapeDeliveryGuidePage() {
         </div>
       </section>
     </article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", "headline": "Vape Delivery in Mumbai — Complete Guide 2026 | TheVapesInMumbai.com", "author": {"@type": "Organization", "name": "TheVapesInMumbai.com"}, "publisher": {"@type": "Organization", "name": "TheVapesInMumbai.com", "url": "https://thevapesinmumbai.com"}, "url": "https://thevapesinmumbai.com/blog/vape-delivery-mumbai-guide" }) }} />
+    </>
   );
 }

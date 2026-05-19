@@ -35,6 +35,7 @@ const rankings = [
 
 export default function TrustedVapePage() {
   return (
+    <>
     <article>
       <section style={{ background: "var(--black)", padding: "60px 0 40px" }}>
         <div className="container" style={{ maxWidth: 800 }}>
@@ -147,5 +148,7 @@ export default function TrustedVapePage() {
         </div>
       </section>
     </article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", "headline": "How to Find Trusted Vape Delivery in Mumbai | TheVapesInMumbai.com", "author": {"@type": "Organization", "name": "TheVapesInMumbai.com"}, "publisher": {"@type": "Organization", "name": "TheVapesInMumbai.com", "url": "https://thevapesinmumbai.com"}, "url": "https://thevapesinmumbai.com/blog/trusted-vape-delivery-mumbai" }) }} />
+    </>
   );
 }

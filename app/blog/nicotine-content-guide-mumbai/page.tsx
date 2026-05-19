@@ -25,6 +25,7 @@ const PRODUCTS = [
 
 export default function NicotineGuidePage() {
   return (
+    <>
     <article>
       {/* Header */}
       <section style={{ background: "var(--black)", padding: "60px 0 40px" }}>
@@ -167,5 +168,7 @@ export default function NicotineGuidePage() {
         </div>
       </section>
     </article>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({ "@context": "https://schema.org", "@type": "Article", "headline": "Nicotine Content Guide — How Much Nicotine is in Each Vape? | TheVapesInMumbai.com", "author": {"@type": "Organization", "name": "TheVapesInMumbai.com"}, "publisher": {"@type": "Organization", "name": "TheVapesInMumbai.com", "url": "https://thevapesinmumbai.com"}, "url": "https://thevapesinmumbai.com/blog/nicotine-content-guide-mumbai" }) }} />
+    </>
   );
 }
