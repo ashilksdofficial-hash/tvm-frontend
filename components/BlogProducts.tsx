@@ -8,7 +8,7 @@ const FEATURED = [
   { name: "ZYN Cool Mint", puffs: "Nicotine Pouch", price: "₹499", img: "/products/zyn-velo.webp", slug: "nicotine-pouches" },
 ];
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 export default function BlogProducts() {
   return (

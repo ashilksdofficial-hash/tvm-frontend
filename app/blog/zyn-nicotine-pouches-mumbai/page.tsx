@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Complete guide to ZYN nicotine pouches in Mumbai. Flavours, strengths, prices and where to get ZYN delivered fast across Mumbai.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/zyn-nicotine-pouches-mumbai" },
 };
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20ZYN";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20ZYN";
 export default function ZynPage() {
   return (
     <>

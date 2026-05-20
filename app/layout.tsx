@@ -53,7 +53,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
               <li><a href="/#categories">Products</a></li>
               <li><a href="/blog">Blog</a></li>
               <li><a href="/about">About</a></li>
-              <li><a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape" target="_blank" className="nav-cta">Order Now</a></li>
+              <li><a href="https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai" target="_blank" className="nav-cta">Order Now</a></li>
             </ul>
           </div>
         </nav>

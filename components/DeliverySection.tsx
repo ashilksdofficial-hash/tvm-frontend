@@ -122,7 +122,7 @@ const DELIVERY_ZONES: Record<string, { area: string; time: string }> = {
   "400702": { area: "Navi Mumbai", time: "55-60 min" },
 };
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 // Mumbai zones with approximate SVG coordinates
 const MAP_ZONES = [

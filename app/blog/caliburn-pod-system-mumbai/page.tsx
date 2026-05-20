@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Complete guide to all Caliburn pod systems available in Mumbai. Prices, specs and which Caliburn is right for you. Fast delivery across Mumbai.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/caliburn-pod-system-mumbai" },
 };
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20Caliburn";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20Caliburn";
 const PRODUCTS = [
   {name:"Caliburn A2",price:"₹4,800",battery:"520mAh",power:"15W",best:"Beginners"},
   {name:"Caliburn G3 Lite",price:"₹3,899",battery:"900mAh",power:"25W",best:"Budget pick"},

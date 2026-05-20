@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thevapesinmumbai.com/products/tobacco" },
 };
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 const products = [
   { name: "Amber Leaf Rolling Tobacco", specs: "50g pouch", price: "₹1,199", mrp: "₹1,499", badge: "POPULAR", img: "amber-leaf.webp" },

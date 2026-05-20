@@ -8,7 +8,7 @@ const SLIDES = [
   { src: "/hero-3.jpg", alt: "Most trusted vape store in Mumbai — TheVapesInMumbai.in — verified and safe" },
 ];
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape%21";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai%21";
 
 export default function HeroCarousel() {
   const [current, setCurrent] = useState(0);

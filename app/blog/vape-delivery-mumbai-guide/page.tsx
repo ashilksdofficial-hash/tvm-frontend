@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "Everything about vape delivery in Mumbai. Areas covered, delivery times, how to order, and what to expect. The complete 2026 guide.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/vape-delivery-mumbai-guide" },
 };
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 const AREAS = ["Bandra West","Andheri West","Juhu","Powai","Worli","Lower Parel","Thane West","Borivali West","Malad West","Goregaon West","Kandivali West","Andheri East","Bannerghatta Road","Kharghar Road","Vile Parle","Kadugodi","KR Puram","Dadar","Navi Mumbai","Mysore Road"];
 export default function VapeDeliveryGuidePage() {
   return (

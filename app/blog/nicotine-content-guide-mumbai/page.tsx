@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thevapesinmumbai.com/blog/nicotine-content-guide-mumbai" },
 };
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 const PRODUCTS = [
   { name: "Elfbar Raya D1", type: "Disposable", nicotine: "20mg", strength: "High", puffs: "13,000", note: "Best for heavy smokers switching to vape" },

@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thevapesinmumbai.com/products/disposables" },
 };
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 const products = [
   { name: "Elfbar Raya D1", puffs: "13,000 Puffs", price: "₹2,399", mrp: "₹2,998", badge: "BEST SELLER", img: "raya-d1.webp" },

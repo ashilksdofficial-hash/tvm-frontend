@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thevapesinmumbai.com/products/eliquids" },
 };
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 const products = [
   { name: "Elfliq Nic Salt 10ml", specs: "10mg / 20mg", price: "₹1,999", mrp: "₹2,499", badge: "POPULAR", img: "elfliq-nic-salt.webp" },

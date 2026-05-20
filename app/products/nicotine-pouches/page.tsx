@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thevapesinmumbai.com/products/nicotine-pouches" },
 };
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 const products = [
   { name: "ZYN Cool Mint", specs: "3mg / 6mg", price: "₹1,199", mrp: "₹1,499", badge: "POPULAR", img: "zyn-velo.webp" },

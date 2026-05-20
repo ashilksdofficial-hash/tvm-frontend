@@ -6,7 +6,7 @@ export const metadata: Metadata = {
   description: "The definitive guide to buying vapes in Mumbai. Online vs offline, trusted sources, what to watch out for and how to get the best deals.",
   alternates: { canonical: "https://thevapesinmumbai.com/blog/where-to-buy-vapes-mumbai" },
 };
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 export default function WhereToBuyPage() {
   return (
     <>

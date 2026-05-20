@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://thevapesinmumbai.com/products/pod-systems" },
 };
 
-const WA = "https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20order%20a%20vape";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 const products = [
   { name: "Caliburn A2", specs: "520mAh · 15W", price: "₹4,299", mrp: "₹5,374", badge: "BEGINNER", img: "caliburn-a2.webp" },
