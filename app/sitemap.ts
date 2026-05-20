@@ -70,6 +70,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${base}/locations/vikhroli`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/locations/vile-parle-east`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/locations/vile-parle-west`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+
+    { url: `${base}/locations/taj-mahal-palace-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/oberoi-trident-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/four-seasons-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/jw-marriott-mumbai-juhu`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/itc-maratha-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/sofitel-mumbai-bkc`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/st-regis-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/westin-mumbai-powai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/marriott-juhu-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${base}/locations/grand-hyatt-mumbai`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${base}/locations/worli`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
   ];
 }
