@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 
-const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai%21";
+const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 export default function StickyWhatsApp() {
   const [visible, setVisible] = useState(false);
