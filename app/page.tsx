@@ -437,7 +437,7 @@ export default function HomePage() {
           </div>
           <p style={{color:"rgba(255,255,255,0.25)",fontSize:"0.75rem",textAlign:"center",marginTop:16}}>
             New cities launching every month ·{" "}
-            <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20vape%20delivery%20in%20my%20city" target="_blank" rel="noopener noreferrer" style={{color:"#E23744",textDecoration:"none"}}>Request your city →</a>
+            <a href="https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20vape%20delivery%20in%20my%20city" target="_blank" rel="noopener noreferrer" style={{color:"#E23744",textDecoration:"none"}}>Request your city →</a>
           </p>
         </div>
       </section>
@@ -522,7 +522,7 @@ export default function HomePage() {
           <div style={{background:"#0D0D0D",borderRadius:14,padding:24,textAlign:"center"}}>
             <div style={{fontWeight:700,color:"#fff",fontSize:"1rem",marginBottom:6}}>Ordered from us? Leave a Review!</div>
             <p style={{color:"rgba(255,255,255,0.6)",fontSize:"0.84rem",marginBottom:16}}>Share your experience and help other Mumbai vapers find trusted delivery.</p>
-            <a href="https://wa.me/916282878843?text=Hi%2C%20I%20want%20to%20leave%20a%20review%20for%20TheVapesInMumbai.com%21%20Here%20is%20my%20experience%3A%20" target="_blank" rel="noopener noreferrer"
+            <a href="https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20leave%20a%20review%20for%20TheVapesInMumbai.com%21%20Here%20is%20my%20experience%3A%20" target="_blank" rel="noopener noreferrer"
               style={{display:"inline-flex",alignItems:"center",gap:8,background:"#25D366",color:"#fff",padding:"11px 24px",borderRadius:10,fontWeight:700,fontSize:"0.85rem",textDecoration:"none"}}>
               💬 Leave a Review on WhatsApp
             </a>
