@@ -5,7 +5,7 @@ const FEATURED = [
   { name: "Elfbar Raya D1", puffs: "13,000 Puffs", price: "₹2,199", img: "/products/raya-d1.webp", slug: "disposables" },
   { name: "Caliburn G3 Pro", puffs: "900mAh · 25W", price: "₹5,999", img: "/products/caliburn-g3-pro.webp", slug: "pod-systems" },
   { name: "Lost Mary MT35000", puffs: "35,000 Puffs", price: "₹2,999", img: "/products/lost-mary-mt35000.webp", slug: "disposables" },
-  { name: "ZYN Cool Mint", puffs: "Nicotine Pouch", price: "₹499", img: "/products/zyn-velo.webp", slug: "nicotine-pouches" },
+  { name: "ZYN Cool Mint", puffs: "Nicotine Pouch", price: "₹999", img: "/products/zyn-velo.webp", slug: "nicotine-pouches" },
 ];
 
 const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
@@ -28,7 +28,7 @@ export default function BlogProducts() {
               <div style={{ fontSize: "0.65rem", color: "#6B7280", marginBottom: 6 }}>{p.puffs}</div>
               <div style={{ fontSize: "0.9rem", fontWeight: 800, color: "#E23744", marginBottom: 8 }}>{p.price}</div>
               <a href={`${WA.replace("a%20vape", encodeURIComponent(p.name))}`} target="_blank" rel="noopener noreferrer" style={{ display: "block", background: "#E23744", color: "#fff", textAlign: "center", padding: "7px", borderRadius: 8, fontWeight: 700, fontSize: "0.72rem", textDecoration: "none" }}>
-                🔔 Notify Me
+                🛒 Order Now
               </a>
             </div>
           </div>
