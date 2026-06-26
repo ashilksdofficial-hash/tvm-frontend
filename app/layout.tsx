@@ -17,6 +17,15 @@ export const metadata: Metadata = {
     siteName: "The Vapes in Mumbai",
     locale: "en_IN",
     type: "website",
+  },  icons: {
+    icon: [
+      { url: "/favicon-48.png", sizes: "48x48", type: "image/png" },
+      { url: "/favicon-192.png", sizes: "192x192", type: "image/png" },
+      { url: "/favicon-512.png", sizes: "512x512", type: "image/png" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
+    shortcut: "/favicon-48.png",
+    apple: "/favicon-192.png",
   },
 };
 
@@ -27,6 +36,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
         <meta name="theme-color" content="#E23744" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192.png" />
+        <link rel="icon" type="image/png" sizes="512x512" href="/favicon-512.png" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="apple-touch-icon" sizes="192x192" href="/favicon-192.png" />
         <meta name="geo.region" content="IN-MH" />
         <meta name="geo.placename" content="Mumbai" />
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZF349XHXB"></script>
