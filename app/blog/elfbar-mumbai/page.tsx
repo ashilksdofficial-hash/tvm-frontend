@@ -12,13 +12,13 @@ const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%
 
 const PRODUCTS = [
   { name: "Elfbar 600", puffs: "600", price: "₹999", nicotine: "20mg", best: "Budget option, great for trying vaping" },
-  { name: "Elfbar Raya D1", puffs: "13,000", price: "₹2,199", nicotine: "20mg", best: "Best seller. Perfect everyday vape." },
-  { name: "Elfbar Raya D3", puffs: "25,000", price: "₹2,799", nicotine: "20mg", best: "Smart display, 3 power modes" },
-  { name: "Elfbar D3 Pro", puffs: "25,000", price: "₹2,799", nicotine: "20mg", best: "Advanced version of D3" },
-  { name: "Elfbar Ice King", puffs: "30,000", price: "₹2,499", nicotine: "20mg", best: "Best value high puff count" },
+  { name: "Elfbar Raya D1", puffs: "13,000", price: "₹2,299", nicotine: "20mg", best: "Best seller. Perfect everyday vape." },
+  { name: "Elfbar Raya D3", puffs: "25,000", price: "₹2,999", nicotine: "20mg", best: "Smart display, 3 power modes" },
+  { name: "Elfbar D3 Pro", puffs: "25,000", price: "₹2,999", nicotine: "20mg", best: "Advanced version of D3" },
+  { name: "Elfbar Ice King", puffs: "30,000", price: "₹2,999", nicotine: "20mg", best: "Best value high puff count" },
   { name: "Elfbar BC 10000", puffs: "10,000", price: "₹2,199", nicotine: "20mg", best: "Compact, reliable everyday option" },
-  { name: "Elfbar MoonNight 40K", puffs: "40,000", price: "₹2,899", nicotine: "20mg", best: "Longest lasting Elfbar available" },
-  { name: "Elfbar Raya SOBO", puffs: "20,000", price: "₹2,849", nicotine: "20mg", best: "Premium design and performance" },
+  { name: "Elfbar MoonNight 40K", puffs: "40,000", price: "₹3,299", nicotine: "20mg", best: "Longest lasting Elfbar available" },
+  { name: "Elfbar Raya SOBO", puffs: "20,000", price: "₹3,499", nicotine: "20mg", best: "Premium design and performance" },
 ];
 
 export default function ElfbarMumbaiPage() {
@@ -77,9 +77,9 @@ export default function ElfbarMumbaiPage() {
           <h2 style={{ marginBottom: 16 }}>Which Elfbar Should You Buy?</h2>
           <div style={{ display: "flex", flexDirection: "column", gap: 12, marginBottom: 40 }}>
             {[
-              { who: "First time vaper", rec: "Elfbar Raya D1 (₹2,199) — affordable, reliable, great flavour. The perfect starting point." },
-              { who: "Daily vaper", rec: "Elfbar Raya D3 (₹2,799) — 25,000 puffs with smart display and 3 power modes. Excellent value." },
-              { who: "Want the longest lasting", rec: "Elfbar MoonNight 40K (₹2,899) — 40,000 puffs. Lasts weeks for most users." },
+              { who: "First time vaper", rec: "Elfbar Raya D1 (₹2,299) — affordable, reliable, great flavour. The perfect starting point." },
+              { who: "Daily vaper", rec: "Elfbar Raya D3 (₹2,999) — 25,000 puffs with smart display and 3 power modes. Excellent value." },
+              { who: "Want the longest lasting", rec: "Elfbar MoonNight 40K (₹3,299) — 40,000 puffs. Lasts weeks for most users." },
               { who: "Budget conscious", rec: "Elfbar 600 (₹999) — cheapest option to try Elfbar quality." },
             ].map(r => (
               <div key={r.who} style={{ background: "var(--off-white)", borderRadius: 10, padding: 20 }}>
