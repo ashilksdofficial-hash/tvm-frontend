@@ -22,6 +22,8 @@ const PRODUCTS = [
   { id: "caliburn-g3-lite", name: "Caliburn G3 Lite", price: 4199, category: "Pod System" },
   { id: "elfliq", name: "Elfliq Nic Salt", price: 1899, category: "E-Liquid" },
   { id: "pod-salt-core", name: "Pod Salt Core", price: 1899, category: "E-Liquid" },
+  { id: "nasty-salt-30", name: "Nasty Salt 30ml", price: 1899, category: "E-Liquid" },
+  { id: "nasty-salt-50", name: "Nasty Salt 50ml", price: 1999, category: "E-Liquid" },
   { id: "zyn", name: "ZYN Cool Mint", price: 1299, category: "Nicotine Pouch" },
   { id: "velo", name: "Velo Freezing Peppermint", price: 1299, category: "Nicotine Pouch" },
   { id: "amber-leaf", name: "Amber Leaf Tobacco", price: 1299, category: "Tobacco" },
