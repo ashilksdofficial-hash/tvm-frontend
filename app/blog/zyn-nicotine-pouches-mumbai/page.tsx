@@ -24,9 +24,9 @@ export default function ZynPage() {
           <p style={{fontSize:"1.05rem",color:"var(--gray)",marginBottom:32}}>ZYN is the world's leading nicotine pouch brand. Smoke-free, vapour-free, and completely discreet — ZYN pouches are the preferred choice for people who want nicotine without vaping. Available for fast delivery across Mumbai.</p>
           <h2 style={{marginBottom:24}}>ZYN Products Available in Mumbai</h2>
           <div style={{display:"flex",flexDirection:"column",gap:16,marginBottom:40}}>
-            {[{name:"ZYN Cool Mint",strength:"3mg / 6mg",price:"₹999",desc:"Most popular flavour. Clean, refreshing mint with a smooth nicotine delivery. Perfect for beginners."},
-              {name:"ZYN Icy Blackcurrant",strength:"6mg",price:"₹999",desc:"Bold blackcurrant with a cool finish. Popular with vapers switching to pouches."},
-              {name:"Velo Freezing Peppermint",strength:"10mg",price:"₹999",desc:"Stronger alternative to ZYN. Intense peppermint with higher nicotine strength."},
+            {[{name:"ZYN Cool Mint",strength:"3mg / 6mg",price:"₹1,299",desc:"Most popular flavour. Clean, refreshing mint with a smooth nicotine delivery. Perfect for beginners."},
+              {name:"ZYN Icy Blackcurrant",strength:"6mg",price:"₹1,299",desc:"Bold blackcurrant with a cool finish. Popular with vapers switching to pouches."},
+              {name:"Velo Freezing Peppermint",strength:"10mg",price:"₹1,299",desc:"Stronger alternative to ZYN. Intense peppermint with higher nicotine strength."},
             ].map(p => (
               <div key={p.name} style={{background:"#fff",border:"1px solid var(--border)",borderRadius:12,padding:24}}>
                 <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:8,flexWrap:"wrap",gap:8}}>
