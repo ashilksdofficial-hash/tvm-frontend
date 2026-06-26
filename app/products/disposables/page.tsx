@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Image from "next/image";
+import Link from "next/link";
 import AddToCartButton from "../../../components/AddToCartButton";
 
 export const metadata: Metadata = {
@@ -11,11 +12,11 @@ export const metadata: Metadata = {
 const WA = "https://wa.me/916282878843?text=Hi%20TheVapesInMumbai%2C%20I%20want%20to%20order%20a%20vape%20in%20Mumbai";
 
 const products = [
-  { name: "Elfbar Raya D1", puffs: "13,000 Puffs", price: "₹2,299", mrp: "₹2,874", badge: "BEST SELLER", img: "raya-d1.webp" },
-  { name: "Elfbar MoonNight 40K", puffs: "40,000 Puffs", price: "₹3,299", mrp: "₹4,124", badge: "LONGEST", img: "elfbar-moonnight.webp" },
+  { name: "Elfbar Raya D1", puffs: "13,000 Puffs", price: "₹2,299", mrp: "₹2,874", badge: "BEST SELLER", img: "raya-d1.webp", slug: "elfbar-raya-d1" },
+  { name: "Elfbar MoonNight 40K", puffs: "40,000 Puffs", price: "₹3,299", mrp: "₹4,124", badge: "LONGEST", img: "elfbar-moonnight.webp", slug: "elfbar-moonnight-40k" },
   { name: "Elfbar 600", puffs: "600 Puffs", price: "₹1,099", mrp: "₹1,374", badge: "BUDGET", img: "elfbar-600.webp" },
   
-  { name: "Elfbar Raya D3", puffs: "25,000 Puffs", price: "₹2,999", mrp: "₹3,748", badge: "TOP RATED", img: "raya-d3.webp" },
+  { name: "Elfbar Raya D3", puffs: "25,000 Puffs", price: "₹2,999", mrp: "₹3,748", badge: "TOP RATED", img: "raya-d3.webp", slug: "elfbar-raya-d3" },
   { name: "Elfbar D3 Pro", puffs: "30,000 Puffs", price: "₹2,999", mrp: "₹3,748", badge: "PRO", img: "d3-pro.webp" },
   { name: "Elfbar Ice King", puffs: "30,000 Puffs", price: "₹2,999", mrp: "₹3,748", badge: "VALUE", img: "ice-king.webp" },
   { name: "Elfbar BC 10000", puffs: "10,000 Puffs", price: "₹1,999", mrp: "₹2,499", badge: "COMPACT", img: "bc10000.webp" },
@@ -50,7 +51,13 @@ export default function Page() {
               <div key={p.name} style={{background:"#fff",border:"1px solid #E5E7EB",borderRadius:16,overflow:"hidden",boxShadow:"0 2px 12px rgba(0,0,0,0.06)"}}>
                 <div style={{background:"#F9F9F9",position:"relative",aspectRatio:"1",overflow:"hidden"}}>
                   <span style={{position:"absolute",top:8,left:8,zIndex:1,background:"#E23744",color:"#fff",fontSize:"0.6rem",fontWeight:700,padding:"3px 7px",borderRadius:100}}>{p.badge}</span>
-                  <Image src={"/products/" + p.img} alt={p.name + " Mumbai"} fill style={{objectFit:"contain",padding:"8px"}} sizes="50vw" />
+                  {(p as {slug?: string}).slug ? (
+                    <Link href={`/products/disposables/${(p as {slug?: string}).slug}`} style={{display:"block",width:"100%",height:"100%",position:"relative"}}>
+                      <Image src={"/products/" + p.img} alt={p.name + " Mumbai"} fill style={{objectFit:"contain",padding:"8px"}} sizes="50vw" />
+                    </Link>
+                  ) : (
+                    <Image src={"/products/" + p.img} alt={p.name + " Mumbai"} fill style={{objectFit:"contain",padding:"8px"}} sizes="50vw" />
+                  )}
                 </div>
                 <div style={{padding:12}}>
                   <div style={{fontSize:"0.82rem",fontWeight:700,color:"#0D0D0D",marginBottom:2,lineHeight:1.3}}>{p.name}</div>

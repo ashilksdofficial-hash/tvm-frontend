@@ -7,6 +7,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return [
     { url: base, lastModified: now, changeFrequency: "daily", priority: 1.0 },
     { url: `${base}/products/disposables`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${base}/products/disposables/elfbar-raya-d1`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${base}/products/disposables/elfbar-moonnight-40k`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
+    { url: `${base}/products/disposables/elfbar-raya-d3`, lastModified: now, changeFrequency: "weekly", priority: 0.85 },
     { url: `${base}/products/pod-systems`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/products/eliquids`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${base}/products/nicotine-pouches`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
