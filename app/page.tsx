@@ -6,7 +6,7 @@ import DeliverySection from "../components/DeliverySection";
 
 export const metadata: Metadata = {
   title: "Vapes in Mumbai — 45-60 Min Delivery | TheVapesInMumbai.com",
-  description: "Buy vapes in Mumbai with 45-60 minute delivery. Disposables, pod systems, nic salts, nicotine pouches & tobacco. 100% original products delivered to BTM, HSR, Juhu, Worli & 20+ areas.",
+  description: "Buy vapes in Mumbai with 45-60 minute delivery. Disposables, pod systems, nic salts, nicotine pouches & tobacco. 100% original products delivered to Bandra, Andheri, Juhu, Worli & 20+ areas.",
   alternates: { canonical: "https://thevapesinmumbai.com" },
 };
 

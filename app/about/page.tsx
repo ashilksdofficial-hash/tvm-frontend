@@ -164,10 +164,9 @@ export default function AboutPage() {
         "url": "https://thevapesinmumbai.com",
         "telephone": "+916282878843",
         "address": { "@type": "PostalAddress", "addressLocality": "Mumbai", "addressRegion": "Maharashtra", "addressCountry": "IN" },
-        "geo": { "@type": "GeoCoordinates", "latitude": 12.9716, "longitude": 77.5946 },
+        "geo": { "@type": "GeoCoordinates", "latitude": 19.076, "longitude": 72.8777 },
         "openingHours": "Mo-Su 10:00-22:00",
         "priceRange": "₹₹",
-        "servesCuisine": "Vape Products",
       })}} />
     </>
   );

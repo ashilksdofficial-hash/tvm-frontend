@@ -6,12 +6,12 @@ import LiveOrderTicker from "../components/LiveOrderTicker";
 import MiniCart from "../components/MiniCart";
 
 export const metadata: Metadata = {
-  title: "The Vapes in Mumbai — Fast Vape Delivery Across Mumbai",
-  description: "Buy vapes in Mumbai with 45-60 minute delivery. Elfbar, Caliburn, ZYN, Lost Mary & more. Trusted vape delivery across BTM, HSR, Juhu, Worli and 20+ areas.",
+  title: "Vapes in Mumbai — 45-60 Min Delivery | TheVapesInMumbai.com",
+  description: "Buy vapes in Mumbai with 45-60 minute delivery. Elfbar, Caliburn, ZYN, Lost Mary & more. Trusted vape delivery across Bandra, Andheri, Juhu, Worli and 20+ areas.",
   keywords: "vapes in mumbai, vape delivery mumbai, buy vape mumbai, elfbar mumbai, caliburn mumbai, zyn mumbai",
   alternates: { canonical: "https://thevapesinmumbai.com" },
   openGraph: {
-    title: "The Vapes in Mumbai — Fast Vape Delivery",
+    title: "Vapes in Mumbai — 45-60 Min Delivery",
     description: "45-60 min vape delivery across Mumbai. 100% original products.",
     url: "https://thevapesinmumbai.com",
     siteName: "The Vapes in Mumbai",
@@ -71,6 +71,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           "addressLocality": "Mumbai",
           "addressRegion": "Maharashtra",
           "addressCountry": "IN"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 19.0760,
+          "longitude": 72.8777
         },
         "aggregateRating": {
           "@type": "AggregateRating",
