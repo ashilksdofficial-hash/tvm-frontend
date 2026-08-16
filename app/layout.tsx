@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { SpeedInsights } from "@vercel/speed-insights/next";
+import { Analytics } from "@vercel/analytics/next";
 import StickyWhatsApp from "../components/StickyWhatsApp";
 import LiveOrderTicker from "../components/LiveOrderTicker";
 import MiniCart from "../components/MiniCart";
@@ -121,6 +122,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <StickyWhatsApp />
         <MiniCart />
         <SpeedInsights />
+        <Analytics />
 {/* Footer */}
         <footer className="footer">
           <div className="container">
